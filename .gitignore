@@ -1,0 +1,7 @@
+src/_menuxml/admin/_menufull\.xml
+/.git-ftp-ignore
+/.git
+/logs
+logs
+*.lock
+/node_modules
