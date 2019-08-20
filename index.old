@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+@include('pub_theme::layouts.partials.htmlheader')
+<body class="home">
+	<div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out">
+		@include('pub_theme::layouts.partials.headernav')
+		@include($view.'.banner')
+		@include($view.'.location_match')
+		@include($view.'.popular')
+		@include($view.'.how_it_works')
+		@include($view.'.featured_restaurants')
+		@include('pub_theme::layouts.partials.mobile_app')
+		@include('pub_theme::layouts.partials.footer')
+	</div>
+	<!--/end:Site wrapper -->
+	@include('pub_theme::layouts.partials.scripts')
+</body>
+
+</html>

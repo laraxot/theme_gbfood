@@ -1,0 +1,34 @@
+
+@push('scripts')
+<script>
+$(document).ready(function () {
+	$( ".addopeningHours" ).on( "click", function() {
+		/*swal({
+			title: "time range",
+			input: 'text',
+			inputValue: 5,
+			showCancelButton: true,
+		});*/
+		swal({
+			title: 'Multiple inputs',
+			html:
+				'<input id="swal-input1" class="swal2-input">' +
+				'<input id="swal-input2" class="swal2-input">',
+			preConfirm: function () {
+				return new Promise(function (resolve) {
+			  		resolve([
+						$('#swal-input1').val(),
+						$('#swal-input2').val()
+			  		])
+				})
+			},
+			onOpen: function () {
+				$('#swal-input1').focus()
+			}
+		}).then(function (result) {
+			swal(JSON.stringify(result))
+		}).catch(swal.noop)
+	});//end onclick
+});//edn doc ready
+</script>
+@endpush

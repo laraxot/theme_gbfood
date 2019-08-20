@@ -1,0 +1,1 @@
+@include('pub_theme::layouts.default.show.inner_page.restaurant')
