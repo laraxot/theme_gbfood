@@ -31,7 +31,6 @@
 	font-size: 20px;
 	}
 </style>
-<div class="loginRes"></div>
 <div class="signin-form col-md-4 offset-md-4 bg-white rounded">
 	<form method="POST" action="{{ route('login') }}" accept-charset="UTF-8" class="dialog-form" id="formLogin">
 		{{ csrf_field() }}
@@ -54,6 +53,7 @@
 		<div class="form-group">
 			<input type="password" placeholder="Password" class="form-control" name="password" />
 		</div>
+		<div class="loginRes"></div>
 		<label>
 		<input type="checkbox" name="remember">@lang('pub_theme::auth.ajax_login.remember_me')
 		</label>
