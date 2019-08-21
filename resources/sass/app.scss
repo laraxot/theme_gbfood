@@ -1,0 +1,38 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Give+You+Glory);
+
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap-grid';
+
+// font awesome
+//@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome"; 
+@import "~@fortawesome/fontawesome-free/scss/regular"; 
+@import "~@fortawesome/fontawesome-free/scss/solid"; 
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/v4-shims";
+//--glyphicons-halflings
+@import "~glyphicons-halflings/scss/glyphicons-halflings";
+
+
+@import '~sweetalert2/src/sweetalert2.scss';
+
+// Magnific PopUp
+@import "~magnific-popup/src/css/main.scss";
+// calendar
+@import "~flatpickr/dist/flatpickr.min.css";
+
+//flag 
+@import "~flag-icon-css/sass/flag-icon";
+
+
+//theme style
+@import '../css/style.css';
+//my styles
+@import '../css/xot.css';

@@ -1,0 +1,1 @@
+pub_theme::layouts.default.index_ajax.item.rating :) 
