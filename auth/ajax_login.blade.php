@@ -11,7 +11,7 @@
 	text-align: center;
 	border: none;
 	transition: all 0.4s;
-	}	
+	}
 	.social-btn .btn:first-child {
 	margin-left: 0;
 	}
@@ -32,13 +32,13 @@
 	}
 </style>
 <div class="loginRes"></div>
-<div class="signin-form">
+<div class="signin-form col-md-4 offset-md-4 bg-white rounded">
 	<form method="POST" action="{{ route('login') }}" accept-charset="UTF-8" class="dialog-form" id="formLogin">
 		{{ csrf_field() }}
-		<h2>@lang('pub_theme::auth.member_login')</h2>
-		<p class="hint-text">@lang('pub_theme::auth.member_login_subtitle')</p>
+		<h2 class="text-center">@lang('pub_theme::auth.member_login')</h2>
+		<p class="hint-text text-center">@lang('pub_theme::auth.member_login_subtitle')</p>
 		<div class="social-btn text-center">
-			@php 
+			@php
 			$providers=['facebook','twitter','google'];
 			@endphp
 			@foreach($providers as $provider)
@@ -49,7 +49,7 @@
 		</div>
 		<hr/>
 		<div class="form-group">
-			<input type="text" placeholder="email@domain.com" class="form-control" name="email" />								
+			<input type="text" placeholder="email@domain.com" class="form-control" name="email" />
 		</div>
 		<div class="form-group">
 			<input type="password" placeholder="Password" class="form-control" name="password" />
@@ -63,5 +63,7 @@
 	</form>
 	<div class="text-center small"><a href="{{ route('password.request') }}"> @lang('pub_theme::auth.ajax_login.forgot_password')</a></div>
 	<hr>
-	<button type="submit" class="btn btn-primary" value="{{ route('register') }}">@lang('pub_theme::auth.ajax_login.not_member_yet')</button>
+	<div class="text-right">
+		<button type="submit" class="btn btn-primary mb-3" value="{{ route('register') }}">@lang('pub_theme::auth.ajax_login.not_member_yet')</button>
+	</div>
 </div>
