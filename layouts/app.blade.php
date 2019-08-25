@@ -5,7 +5,7 @@
 	@include('extend::includes.flash')
 		<div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out">
 	--}}
-	<div class="site-wrapper">
+	<div class="site-wrapper" id="app">
 		@include('pub_theme::layouts.partials.headernav')
 		@yield('content')
 	</div>
