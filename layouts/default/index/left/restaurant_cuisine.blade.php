@@ -1,5 +1,5 @@
 @php
-	//$restaurant_curr=collect($params)->where('type','restaurant')->last();
+	//$restaurant_curr=collect($params)->where('post_type','restaurant')->last();
 	$cuisines=$restaurant_curr->cuisines;
 	//ddd($cuisines[0]->title);
 @endphp

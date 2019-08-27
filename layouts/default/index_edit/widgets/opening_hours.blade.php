@@ -10,7 +10,7 @@
 		$daynames=['sun','mon','tue','wed','thu','fri','sat'];
 	@endphp
 	<div class="widget-body">
-		@includeFirst([$view.'.item.add.opening_hours',$view_default.'.item.add.opening_hours'])
+		@includeFirst([$_layout->view.'.item.add.opening_hours',$_layout->view_default.'.item.add.opening_hours'])
 		<table class="table">
 		{{--	
 		<ul class="list-unstyled opening-hours">

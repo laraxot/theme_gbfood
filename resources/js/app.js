@@ -50,6 +50,21 @@ Vue.use(Vuetify);
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
+Vue.component('test-component', require('./components/TestComponent.vue').default);
+/*
+Vue.component('date-picker', {
+  template: '<input/>',
+  props: [ 'dateFormat' ],
+  mounted: function() {
+    $(this.$el).datepicker({
+      dateFormat: this.dateFormat
+    });
+  },
+  beforeDestroy: function() { 
+  }
+});
+*/
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

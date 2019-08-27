@@ -10,12 +10,17 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "axios": "^0.19",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "bootstrap": "^4.1.0",
     "cross-env": "^5.2.0",
     "deepmerge": "^4.0.0",
     "fibers": "^4.0.1",
-    "jquery": "^3.2",
+    "gulp-babel": "^8.0.0",
+    "jquery": "^3.4.1",
     "laravel-mix": "^4.0.7",
     "laravel-mix-merge-manifest": "^0.1.2",
     "lodash": "^4.17.15",
@@ -49,6 +54,7 @@
     "glyphicons": "^0.2.0",
     "glyphicons-halflings": "^1.9.1",
     "gravatar": "^1.8.0",
+    "jquery-ui": "^1.12.1",
     "jquery.easing": "^1.4.1",
     "laravel-mix-tailwind": "^0.1.0",
     "magnific-popup": "^1.1.0",
@@ -60,6 +66,7 @@
     "vue-cookie-law": "^1.10.0",
     "vue-router": "^3.1.2",
     "vuetify": "^2.0.10",
-    "vuex": "^3.1.1"
+    "vuex": "^3.1.1",
+    "webpack-jquery-ui": "^2.0.1"
   }
 }

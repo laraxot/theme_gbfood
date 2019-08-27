@@ -1,5 +1,5 @@
 @php
-    $restaurant_curr=collect($params)->where('type','restaurant')->last();
+    $restaurant_curr=collect($params)->where('post_type','restaurant')->last();
     if($restaurant_curr==null) return;
     $cuisineCats = $restaurant_curr->cuisineCats;
     $ratings=$restaurant_curr->ratings;

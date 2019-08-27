@@ -1,5 +1,5 @@
 @php
-	//$restaurant_curr=collect($params)->where('type','restaurant')->last();
+	//$restaurant_curr=collect($params)->where('post_type','restaurant')->last();
 	$cuisines=$restaurant_curr->cuisines;
 @endphp
 <div class="sidebar clearfix m-b-20">
