@@ -14,4 +14,5 @@ export default {
     //Datepicker: Datepicker
   }
 }
+//https://github.com/ankurk91/vue-flatpickr-component
 </script>

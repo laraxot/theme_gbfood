@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import $ from 'jquery';
 require('jquery-ui/ui/widgets/datepicker.js');
 require('webpack-jquery-ui/datepicker');
 export default {

@@ -51,19 +51,23 @@ Vue.use(Vuetify);
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
 Vue.component('test-component', require('./components/TestComponent.vue').default);
-/*
+//https://dzone.com/articles/how-to-safely-use-a-jquery-plugin-with-vuejs
 Vue.component('date-picker', {
   template: '<input/>',
   props: [ 'dateFormat' ],
   mounted: function() {
     $(this.$el).datepicker({
-      dateFormat: this.dateFormat
+      dateFormat: this.dateFormat,
+      onSelect: function(date) {
+        self.$emit('update-date', date);
+      }
     });
   },
   beforeDestroy: function() { 
+    $(this.$el).datepicker('hide').datepicker('destroy');
   }
 });
-*/
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
