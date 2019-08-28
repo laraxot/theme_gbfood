@@ -1,3 +1,6 @@
+@php
+	if(!is_array($cart_items)) return ;
+@endphp
 <div class="widget widget-cart">
 	<div class="widget-heading">
 		<h3 class="widget-title text-dark">
