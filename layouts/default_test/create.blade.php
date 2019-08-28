@@ -1,8 +1,8 @@
 @extends('pub_theme::layouts.app')
 @section('page_heading',trans($view.'.page_heading'))
 @section('content')
-@include('extend::includes.flash')
-@include('extend::includes.components')
+@include('theme::includes.flash')
+
 @php
 	$edit_type=snake_case($row->post_type);
 	if(!\View::exists($view.'.form') && !\View::exists($view_default.'.form.'.$edit_type)){

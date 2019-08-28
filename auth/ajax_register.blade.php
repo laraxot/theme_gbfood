@@ -1,4 +1,4 @@
-@include('extend::includes.components')
+
 <div class="loginRes"></div>
 <i class="fa fa-edit dialog-icon"></i>
 <h3>@lang('pub_theme::auth.member_register')</h3>

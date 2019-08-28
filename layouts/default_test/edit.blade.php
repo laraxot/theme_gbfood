@@ -27,8 +27,8 @@
 	}
 
 @endphp
-@include('extend::includes.components')
-@include('extend::includes.flash')
+
+@include('theme::includes.flash')
 @include('extend::modal_ajax')
 @include($_layout->view_default.'.btns.gear')
 <div class="page-wrapper">

@@ -26,8 +26,8 @@
 	//$items=$rows
 
 @endphp
-	@include('extend::includes.components')
-	@include('extend::includes.flash')
+	
+	@include('theme::includes.flash')
 	@include('extend::modal_ajax')
 			{{--
 		<div class="page-wrapper">

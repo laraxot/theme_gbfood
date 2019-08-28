@@ -1,8 +1,8 @@
 @extends('pub_theme::layouts.plane')
 @section('body')
 	{{--
-	@include('extend::includes.components')
-	@include('extend::includes.flash')
+	
+	@include('theme::includes.flash')
 		<div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out">
 	--}}
 	<div class="site-wrapper" id="app">

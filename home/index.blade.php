@@ -1,11 +1,11 @@
 @extends('pub_theme::layouts.app')
 @section('content')
-	@include('extend::includes.flash')
+	@include('theme::includes.flash')
 	@include($view.'.banner')
 	<example-component></example-component>
 	<star-rating></star-rating>
 	{{-- //components non serve piu
-	@include('extend::includes.components')
+	
 	@include($view.'.location_match')
 	--}}
 	{{--@include($view.'.popular')--}}

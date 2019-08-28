@@ -1,7 +1,7 @@
 @extends('pub_theme::layouts.app',['footer'=>'off','header_class'=>'top-header navbar-fixed-top'])
 @section('content')
-@include('extend::includes.components')
-@include('extend::includes.flash')
+
+@include('theme::includes.flash')
 <!-- PAGE CONTETNT -->
 <section class="gl-page-content-section">
 	<div class="container-fluid">

@@ -1,7 +1,7 @@
 @extends('pub_theme::layouts.app')
 @section('content')
-@include('extend::includes.components')
-@include('extend::includes.flash')
+
+@include('theme::includes.flash')
 @include($_layout->view_default.'.btns.gear')
 @php 
 	$tabs=$parent_tabs=$show_type=null;
