@@ -1,5 +1,9 @@
+@php
+	$panel_row=Panel::get($row);
+@endphp
+
 <script type="application/ld+json">
-	{!! json_encode($row->show_ldJson()) !!}
+	{!! json_encode($panel_row->show_ldJson()) !!}
 </script>
 
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 food-item">
