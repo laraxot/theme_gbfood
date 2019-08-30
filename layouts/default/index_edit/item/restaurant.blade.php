@@ -1,6 +1,5 @@
 @php
 	$row_panel=Panel::get($row);
-	ddd($row_panel);
 @endphp
 <div class="bg-gray restaurant-entry">
 	<div class="row">
