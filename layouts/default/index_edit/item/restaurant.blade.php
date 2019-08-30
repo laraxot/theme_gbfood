@@ -11,7 +11,7 @@
 			</div>
 			<!-- end:Logo -->
 			<div class="entry-dscr">
-				<h5><a href="{{ $row->url }}">{{ $row->title }}</a></h5>
+				<h5><a href="{{ $row_panel->url() }}">{{ $row->title }}</a></h5>
 				<span>{{ $row->subtitle }} </span>
 				<br/>
 				<i class="fa fa-cutlery" aria-hidden="true"></i>
