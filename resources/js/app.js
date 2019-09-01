@@ -96,4 +96,5 @@ require(pub_res+'/modal_ajax.js');
 require(pub_res+'/btnDeleteX2.js');
 require(pub_res+'/flatpickr.js');
 require(pub_res+'/typeahead_js.js');
+require(pub_res+'/select2.js');
 require('./xot.js');
