@@ -11,7 +11,7 @@
 				<img itemprop="image" src="{{ $row->image_src }}">
 				--}}
 				</a>
-			</div>
+			</div> 
 			{{-- end:Logo --}}
 			<div class="entry-dscr">
 				<h5>
