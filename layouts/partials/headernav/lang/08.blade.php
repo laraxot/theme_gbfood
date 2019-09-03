@@ -15,7 +15,7 @@
     	@php
     		$url_lang='/'.$k;
     		if(isset($row) && is_object($row)){
-				$url_lang=$row->urlLang($k);
+				$url_lang=$row->urlLang($k); 
     		}
 
     	@endphp
