@@ -5,8 +5,6 @@
     $ratings=$restaurant_curr->ratings;
     $rating_avg=$ratings->avg('rating');
     $rating_count=$ratings->count();
-
-    $restaurant_panel=Panel::get($restaurant_curr);
 @endphp
 <section class="inner-page-hero bg-image" data-image-src="{{ Theme::asset('theme/pub/images/restaurant-bg.jpg') }}">
     <div class="profile">
@@ -15,14 +13,14 @@
                 <div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 profile-img">
                     <div class="image-wrap">
                         <figure>
-                            {!! $restaurant_panel->imageHtml(['width'=>240,'height'=>140]) !!}
+                            {!! $restaurant_curr->image_html(['width'=>240,'height'=>140]) !!}
                         </figure>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 profile-desc"
                      style="background-color: black;opacity: 0.6;filter: alpha(opacity=50);">
                     <div class="pull-left right-text white-txt">
-                        <h6><a href="{{ $restaurant_panel->url() }}">{{ $restaurant_curr->title }}</a></h6>
+                        <h6><a href="{{ $restaurant_curr->url }}">{{ $restaurant_curr->title }}</a></h6>
                         {{--  
                         <p>{{ $restaurant_curr->index_edit_url }}</p>
                         <a class="btn btn-small btn-green">Open</a> 

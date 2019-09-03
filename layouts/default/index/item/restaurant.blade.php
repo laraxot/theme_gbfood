@@ -3,21 +3,19 @@
 	$cuisineCats=$restaurant_curr->cuisineCats;
 	$rating_avg=$restaurant_curr->ratings->avg('rating');
     $rating_count=$restaurant_curr->ratings->count();
-
-    $row_panel=Panel::get($row);
 @endphp
 <div class="bg-gray restaurant-entry">
 	<div class="row">
 		<div class="col-sm-12 col-md-12 col-lg-8 text-xs-center text-sm-left">
 			<div class="entry-logo">
 				<a class="img-fluid" href="{{ $row->url }}">
-					{!! $row_panel->imageHtml(['width'=>100,'height'=>100]) !!}
+					{!! $row->image_html(['width'=>100,'height'=>100]) !!}
 				</a>
 			</div>
 			<!-- end:Logo -->
 			<div class="entry-dscr">
 				<h5>
-					<a href="{{ $row_panel->url() }}">{{ $row->title }}</a>
+					<a href="{{ $row->url }}">{{ $row->title }}</a>
 				</h5>
 				<span>{{ $row->subtitle }} </span>
 				<br/>
