@@ -1,5 +1,6 @@
 @php
-		$restaurant = $row->pivot->post->post;
+	$restaurant = $row->pivot->post->post;
+	$row_panel=Panel::get($row);
 @endphp
 <div vocab="http://schema.org/" typeof="Event">
 <div class="bg-gray restaurant-entry">
@@ -7,7 +8,7 @@
 		<div class="col-sm-12 col-md-12 col-lg-8 text-xs-center text-sm-left" style="max-width: 100%;">
 			<div class="entry-logo">
 				<a class="img-fluid" href="{{ $row->url }}" property="image">
-					{!! $row->image_html(['width'=>100,'height'=>100]) !!}
+					{!! $row_panel->imageHtml(['width'=>100,'height'=>100]) !!}
 				</a>
 			</div>
 			<!-- end:Logo -->

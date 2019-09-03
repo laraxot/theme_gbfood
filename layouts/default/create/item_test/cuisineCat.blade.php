@@ -1,3 +1,6 @@
+@php
+	$row_panel=Panel::get($row);
+@endphp
 <div class="bg-gray restaurant-entry" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 	<meta itemprop="position" content="{{ $key+1 }}" />
 	<div class="row" itemprop="item" itemscope itemtype="http://schema.org/City">
@@ -6,7 +9,7 @@
 			<div class="entry-logo">
 				<a class="img-fluid" href="#">
 				{{--  <img src="http://placehold.it/110x110" alt="Food logo"> --}}
-				{!! $row->image_html(['width'=>110,'height'=>110]) !!}
+				{!! $row_panel->imageHtml(['width'=>110,'height'=>110]) !!}
 				{{--
 				<img itemprop="image" src="{{ $row->image_src }}">
 				--}}

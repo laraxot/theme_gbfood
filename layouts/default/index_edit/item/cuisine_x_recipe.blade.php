@@ -1,21 +1,12 @@
+@php
+	$row_panel=Panel::get($row);
+@endphp
 <div class="food-item {{ $key%2?'white':'' }}">
 	{!! Form::bsOpen($row,'update') !!}
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-lg-7">
-			@if($row->image_src!="")
-			<div class="rest-logo pull-left">
-				<a class="restaurant-logo pull-left" href="{{-- $row->url --}}">
-					{!! $row->image_html(['width'=>100,'height'=>80]) !!}
-				</a>
-			</div>
-			<div class="rest-descr">
-				<b>{!! Form::bsInPlaceText('title') !!}</b>
-				<p>{!! Form::bsInPlaceText('subtitle') !!}</p>
-			</div>
-			@else
 			<b>{!! Form::bsInPlaceText('title') !!}</b>
 			<p>{!! Form::bsInPlaceText('subtitle') !!}</p>
-			@endif
 		</div>
 		<div class="col-xs-12 col-sm-12 col-lg-5 pull-right item-cart-info">
 			{{--

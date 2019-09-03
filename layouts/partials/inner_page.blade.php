@@ -2,6 +2,7 @@
 	if(!isset($bg)){
 		$bg='pub_theme::images/bg/old.jpg';
 	}
+	$row_panel=Panel::get($row);
 @endphp
 <section class="inner-page-hero bg-image" data-image-src="{{ Theme::img_src($bg) }}" >
 	<div class="profile">
@@ -10,7 +11,7 @@
 				<div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 profile-img">
 					<div class="image-wrap">
 						<figure>
-							{!! $row->image_html(['width'=>240,'height'=>140]) !!}
+							{!! $row_panel->imageHtml(['width'=>240,'height'=>140]) !!}
 						</figure>
 					</div>
 				</div>

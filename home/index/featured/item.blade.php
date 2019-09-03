@@ -1,5 +1,6 @@
 @php
 	$cuisineCats=$row->cuisineCats;
+	$row_panel=Panel::get($row);
 @endphp
 <div class="col-xs-12 col-sm-12 col-md-6 single-restaurant {{ $cuisineCats->pluck('guid')->implode(' ') }}">
 	<div class="restaurant-wrap">
@@ -7,7 +8,7 @@
 			<div class="col-xs-12 col-sm-3 col-md-12 col-lg-3 text-xs-center">
 				<a class="restaurant-logo" href="{{ $row->url }}" title="restaurant-logo"> 
 					{{--  <img src="http://placehold.it/95x95" alt="Restaurant logo"> --}}
-					{!! $row->image_html(['width'=>95,'height'=>95]) !!}
+					{!! $row_panel->imageHtml(['width'=>95,'height'=>95]) !!}
 				</a>
 			</div>
 			<!--end:col -->
