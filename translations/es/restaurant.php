@@ -1,6 +1,5 @@
 <?php
 
-
 $def = [
     'title' => 'Nombre del restaurante',
     'title_alert' => 'Nombre del restaurante requerido',
@@ -256,7 +255,6 @@ $def = [
         ],
     ],
 
-
     'article' => [
         'create' => [
             'title' => 'Crear articulo',
@@ -293,11 +291,11 @@ $def['edit'] = $def;
 $def['create']['image_src'] = 'Logotipo del Restaurante';
 $def['create']['thumbnail'] = 'Haga clic aquí o transporte la imagen en este cuadro';
 $def['create']['rules-doc_placeholder'] = 'nel mezzo di cammin di nostra vita mi trovai smarrito che la retta via ..';
-$def['create']['image_src_placeholder']='photo.png';
+$def['create']['image_src_placeholder'] = 'photo.png';
 
-$def['create']['title']='Añade tu restaurante';
-$def['create']['subtitle']='Tendrás un espacio propio!';
-$def['create']['title_banner']= 'Entra en tu restaurante, ¡vale la pena!';
+$def['create']['title'] = 'Añade tu restaurante';
+$def['create']['subtitle'] = 'Tendrás un espacio propio!';
+$def['create']['title_banner'] = 'Entra en tu restaurante, ¡vale la pena!';
 $def['create']['slogan_banner'] = '¿Tienes un negocio de entrega a domicilio? ¡Vale la pena inscribirse en el circuito de FoodTribù!';
 $def['create']['subtitle_banner'] = '<strong> Miles de usuarios </strong> visitan el sitio a diario, su presencia en nuestro circuito le garantiza <strong> mayor visibilidad </strong> y potencial de ingresos sin tener que hacer ningún esfuerzo.';
 $def['create']['reg'] = '¡Regístrate ahora!';
@@ -312,23 +310,22 @@ $def['show']['answer1'] = 'También puede reservar a través de chatbot desde nu
 $def['show']['question2'] = '¿Qué puedo pedir al chatbot?';
 $def['show']['answer2'] = 'Puede interactuar con el chatbot preguntando, cualquier promoción en progreso, horarios y días de apertura, tiempos de entrega, alimentos para cualquier necesidad dietética.';
 
-
 $def['create-logged']['rules-doc'] = 'nel mezzo di cammin di nostra vita mi trovai smarrito che la retta via ..';
 
-$def['cuisine']['index_edit']['opening_hours']='Horario de apertura';
-$def['cuisine']['index_edit']['field']['day_of_week']='día';
-$def['cuisine']['index_edit']['field']['day_of_week_placeholder']='--';
-$def['cuisine']['index_edit']['field']['day_of_week_help']='dia de la semana';
+$def['cuisine']['index_edit']['opening_hours'] = 'Horario de apertura';
+$def['cuisine']['index_edit']['field']['day_of_week'] = 'día';
+$def['cuisine']['index_edit']['field']['day_of_week_placeholder'] = '--';
+$def['cuisine']['index_edit']['field']['day_of_week_help'] = 'dia de la semana';
 
-$def['cuisine']['index_edit']['field']['open_at']='abre en';
-$def['cuisine']['index_edit']['field']['open_at_placeholder']='8:00';
-$def['cuisine']['index_edit']['field']['open_at_help']='puedes dividir mañana y tarde abriendo';
+$def['cuisine']['index_edit']['field']['open_at'] = 'abre en';
+$def['cuisine']['index_edit']['field']['open_at_placeholder'] = '8:00';
+$def['cuisine']['index_edit']['field']['open_at_help'] = 'puedes dividir mañana y tarde abriendo';
 
-$def['cuisine']['index_edit']['field']['close_at']='cierra a las';
-$def['cuisine']['index_edit']['field']['close_at_placeholder']='12:00';
-$def['cuisine']['index_edit']['field']['close_at_help']='';
+$def['cuisine']['index_edit']['field']['close_at'] = 'cierra a las';
+$def['cuisine']['index_edit']['field']['close_at_placeholder'] = '12:00';
+$def['cuisine']['index_edit']['field']['close_at_help'] = '';
 
-$def['create']['field']=$def['create'];
+$def['create']['field'] = $def['create'];
 
 $def['edit']['top'] = [
     'location' => 'lugar',
@@ -337,11 +334,11 @@ $def['edit']['top'] = [
     'order_pay' => 'proceder con el pedido',
 ];
 
-$def['tab']['content']='Info';
-$def['tab']['photo']='Foto';
-$def['tab']['cuisine']='Menù';
-$def['tab']['article']='Blog';
-$def['tab']['contact']='Contactos';
-$def['tab']['map']='Mapa';
+$def['tab']['content'] = 'Info';
+$def['tab']['photo'] = 'Foto';
+$def['tab']['cuisine'] = 'Menù';
+$def['tab']['article'] = 'Blog';
+$def['tab']['contact'] = 'Contactos';
+$def['tab']['map'] = 'Mapa';
 
 return $def;

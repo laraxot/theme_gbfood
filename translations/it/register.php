@@ -1,6 +1,5 @@
 <?php
 
-
 $def = [
     'show' => [
         'my_restaurant' => 'I miei Ristoranti',

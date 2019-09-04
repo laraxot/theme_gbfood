@@ -1,5 +1,6 @@
-<?php 
-return array (
+<?php
+
+return [
   'EUR' => '&euro;',
   'test' => 'prova',
   'Order Delivery & Take-Out' => 'Order Delivery & Take-Out',
@@ -14,8 +15,7 @@ return array (
   'create' => 'Create',
   'Choose Cusine' => 'Scegli Categoria',
   'Opening Hours' => 'Orari Apertura',
-  'day_names' => 
-  array (
+  'day_names' => [
     'sun' => 'Sunday',
     'mon' => 'Monday',
     'tue' => 'Tuesday',
@@ -23,9 +23,8 @@ return array (
     'thu' => 'Thursday',
     'fri' => 'Friday',
     'sat' => 'Saturday',
-  ),
-  'day_names_short' => 
-  array (
+  ],
+  'day_names_short' => [
     'sun' => 'Sun',
     'mon' => 'Mon',
     'tue' => 'Tue',
@@ -33,11 +32,10 @@ return array (
     'thu' => 'Thu',
     'fri' => 'Fri',
     'sat' => 'Sat',
-  ),
+  ],
   'index' => 'lista',
   'week' => 'pub_theme::txt.week',
-  'dayname_short' => 
-  array (
+  'dayname_short' => [
     0 => 'Dom',
     1 => 'Lun',
     2 => 'Mar',
@@ -45,5 +43,5 @@ return array (
     4 => 'Gio',
     5 => 'Ven',
     6 => 'Sab',
-  ),
-);
+  ],
+];

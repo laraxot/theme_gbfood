@@ -1,6 +1,5 @@
 <?php
 
-
 $def = [
     'title' => 'Regístrate para formar parte de FoodTribù',
     'title_help' => 'Inscripción gratuita',
@@ -187,7 +186,6 @@ Este servicio permite que esta aplicación se conecte con la cuenta del usuario 
     'index' => [
         'result' => 'Resultados encontrados',
     ],
-
 ];
 
 $def['create'] = $def;
@@ -211,7 +209,7 @@ $def['create']['slogan_banner'] = '¿Tienes un negocio de entrega a domicilio? R
 $def['create']['subtitle_banner'] = '<strong> Miles de usuarios </ strong> visitan el sitio diariamente. Su presencia en nuestro circuito le garantiza a usted <strong> mayor visibilidad </ strong> y la posibilidad de obtener ganancias sin tener que hacer ningún esfuerzo.';
 $def['create']['reg'] = 'Suscríbete ahora!';
 
-$def['create']['field']=$def['create'];
+$def['create']['field'] = $def['create'];
 $def['edit'] = $def;
 
 return $def;

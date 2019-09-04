@@ -1,6 +1,5 @@
 <?php
 
-
 $def = [
     'show' => [
         'my_restaurant' => 'Mis restaurantes',
@@ -16,7 +15,6 @@ $def = [
     'answer1' => 'Al unirte a la comunidad foodtribu, podrás buscar los mejores restaurantes de comida para llevar más cerca de donde ordenas. Ordene rápidamente incluso a través de un chatbot a aquellos restaurantes que lo hayan activado.',
     'question2' => '¿Qué puedo preguntar en el chatbot?',
     'answer2' => 'Puede solicitar las horas de servicio de los diversos restaurantes, los tiempos de entrega previstos, las promociones actuales, navegar por el menú y buscar restaurantes con necesidades especiales de alimentos.',
-
     ],
     'edit' => [
         'prvPrivacy' => 'Gestión de Autorizaciones de Procesamiento de Datos.',
@@ -166,17 +164,16 @@ $def['create'] = [
     'answer2' => 'El servicio básico es gratuito para siempre. Existe un servicio premium de chatbot reservado para los propietarios de restaurantes con una tarifa mensual',
 ];
 
-$def['restaurant']=include(__DIR__.'/restaurant.php');
+$def['restaurant'] = include __DIR__.'/restaurant.php';
 
-$def['create']['field']=$def['create'];
-$def['edit']['field']=$def['create'];
-$def['edit']['submit']='Registro';
-$def['tab']['content']='Info';
-$def['tab']['restaurant']='Restaurantes sugeridos';
+$def['create']['field'] = $def['create'];
+$def['edit']['field'] = $def['create'];
+$def['edit']['submit'] = 'Registro';
+$def['tab']['content'] = 'Info';
+$def['tab']['restaurant'] = 'Restaurantes sugeridos';
 
-$def['create']['prvPrivacy']='Privacy';
-$def['create']['mandatoryPrivacy']='* Selección obligatoria';
-
+$def['create']['prvPrivacy'] = 'Privacy';
+$def['create']['mandatoryPrivacy'] = '* Selección obligatoria';
 
 $def['create']['field']['passwd'] = 'Password';
 $def['create']['field']['passwd_placeholder'] = 'Contraseña';
@@ -184,6 +181,6 @@ $def['create']['field']['passwd_help'] = 'Tu contraseña secreta';
 $def['create']['field']['passwd_confirmation'] = 'Repetir contraseña';
 $def['create']['field']['passwd_confirmation_placeholder'] = 'Repetir contraseña';
 $def['create']['field']['passwd_confirmation_help'] = 'Repite tu contraseña secreta';
-$def['create']['submit']='Registro';
+$def['create']['submit'] = 'Registro';
 
 return $def;

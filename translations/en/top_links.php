@@ -1,7 +1,5 @@
 <?php
 
-
-
 return [
   'location' => 'Choose your position',
   'restaurant' => 'Choose in your restaurant',

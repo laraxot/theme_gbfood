@@ -1,6 +1,5 @@
 <?php
 
-
 $def = [
     'title' => 'Register to become part of FoodTribù',
     'title_help' => 'Registration for free',
@@ -211,7 +210,7 @@ $def['create']['slogan_banner'] = 'Do you have a home delivery business? Registe
 $def['create']['subtitle_banner'] = '<strong>Thousands of users</strong> visit the site every day, your presence in our circuit guarantees you <strong>greater visibility</strong> and the possibility of gains without having to make any effort.';
 $def['create']['reg'] = 'Subscribe now!';
 
-$def['create']['field']=$def['create'];
+$def['create']['field'] = $def['create'];
 $def['edit'] = $def;
 
 return $def;

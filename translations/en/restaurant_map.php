@@ -1,8 +1,6 @@
 <?php
 
-
 $def = [
-
     'Searchfilter' => 'Add Filters',
     'keyword' => 'Keyword',
     'location' => 'Location',
@@ -11,11 +9,8 @@ $def = [
     'fastfood' => 'Fast Food',
     'pizza' => 'Pizzeria',
     'restaurant' => 'Restaurant',
-
-
 ];
 
 $def['index'] = $def;
-
 
 return $def;

@@ -1,7 +1,5 @@
 <?php
 
-
-
 return [
     'EUR' => '&euro;',
     'test' => 'prova',
@@ -15,22 +13,22 @@ return [
     'edit' => 'Modificación',
     'create' => 'Crear',
 
-    'day_names'=>[
-        'sun'=>'Domingo',
-        'mon'=>'Lunes',
-        'tue'=>'Martes',
-        'wed'=>'Miércoles',
-        'thu'=>'Jueves',
-        'fri'=>'Viernes',
-        'sat'=>'Sábado',
+    'day_names' => [
+        'sun' => 'Domingo',
+        'mon' => 'Lunes',
+        'tue' => 'Martes',
+        'wed' => 'Miércoles',
+        'thu' => 'Jueves',
+        'fri' => 'Viernes',
+        'sat' => 'Sábado',
     ],
-    'day_names_short'=>[
-        'sun'=>'Dom',
-        'mon'=>'Lun',
-        'tue'=>'Mar',
-        'wed'=>'Mer',
-        'thu'=>'Jue',
-        'fri'=>'Vie',
-        'sat'=>'Sáb',
+    'day_names_short' => [
+        'sun' => 'Dom',
+        'mon' => 'Lun',
+        'tue' => 'Mar',
+        'wed' => 'Mer',
+        'thu' => 'Jue',
+        'fri' => 'Vie',
+        'sat' => 'Sáb',
     ],
 ];

@@ -1,7 +1,5 @@
 <?php
 
-
-
 return [
     'sign_in' => 'Acceder',
     'member_login' => 'Área reservada',

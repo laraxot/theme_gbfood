@@ -1,5 +1,6 @@
 <?php
-$def= [
+
+$def = [
     'title' => 'Nome Ristorante',
     'title_alert' => 'Nome del ristorante obbligatorio',
     'title_help' => 'Es. Ristorante da Gino',
@@ -3070,7 +3071,7 @@ $def= [
     ],
 ];
 
+$def['field'] = $def['edit']['field'];
+$def['privacies']['title'] = 'Privacy';
 
-$def['field']=$def['edit']['field'];
-$def['privacies']['title']='Privacy';
 return $def;

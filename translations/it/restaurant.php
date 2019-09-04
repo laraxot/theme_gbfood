@@ -1,9 +1,9 @@
-<?php 
-$def= array (
-    'provider' => 
-    array (
+<?php
+
+$def = [
+    'provider' => [
         'links' => 'Parlano di Noi..',
-    ),
+    ],
     'title' => 'Nome Ristorante',
     'title_alert' => 'Nome del ristorante obbligatorio',
     'title_help' => 'Es. Ristorante da Gino',
@@ -31,40 +31,33 @@ $def= array (
     'txt_alert' => 'Recensione obbligatoria',
     'rules-doc' => 'Per poter iscrivere il Vostro Ristorante è necessario accettare le nostre regole di accettazione del servizio',
     'rules-doc_help' => 'Si prega di leggere attentamente le regole del sito prima di accettare',
-    'cuisine' => 
-    array (
+    'cuisine' => [
         'title' => 'Categoria Piatti',
         'title_placeholder' => 'Categoria Piatti',
         'title_help' => 'es. pizze classiche, antipasti',
         'choose' => 'Scegli Categoria Piatto',
-        'index_edit' => 
-        array (
+        'index_edit' => [
             'choose_cuisine' => 'Scegli Categoria',
             'add_cat' => 'Aggiungi Categoria Piatto',
-            'item' => 
-            array (
-                'cuisine' => 
-                array (
+            'item' => [
+                'cuisine' => [
                     'new' => 'Nuova',
-                    'btn' => 
-                    array (
+                    'btn' => [
                         'new' => 'Nuova Tipologia Piatto',
-                    ),
-                ),
-            ),
+                    ],
+                ],
+            ],
             'opening_hours' => 'Orari Apertura',
-            'tab' => 
-            array (
+            'tab' => [
                 'cuisine' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
                 'contact' => 'Contatti',
                 'map' => 'Dove Siamo',
-            ),
+            ],
             'open_at_placeholder' => 'Apre alle',
             'close_at_placeholder' => 'Chiude alle',
-            'field' => 
-            array (
+            'field' => [
                 'open_at' => 'apre alle',
                 'open_at_placeholder' => 'es: 8:00',
                 'open_at_help' => 'puoi suddividere apertura mattina e pomeridiana',
@@ -74,25 +67,21 @@ $def= array (
                 'day_of_week' => 'giorno',
                 'day_of_week_placeholder' => '--',
                 'day_of_week_help' => 'giorno della settimana',
-            ),
-        ),
-        'index' => 
-        array (
-            'tab' => 
-            array (
+            ],
+        ],
+        'index' => [
+            'tab' => [
                 'cuisine' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
                 'contact' => 'Contatti',
                 'map' => 'Dove Siamo',
-            ),
-        ),
-        'create' => 
-        array (
+            ],
+        ],
+        'create' => [
             'title' => 'Crea una nuova tipologia di piatto',
             'subtitle' => 'es. Antipasti, Primi Piatti, Pizze Classiche..',
-            'field' => 
-            array (
+            'field' => [
                 'title' => 'Titolo della tipologia piatto',
                 'subtitle' => 'Sottotitolo della tipologia piatto',
                 'title_help' => 'es. Antipasti, Primi Piatti, Pizze Classiche',
@@ -100,128 +89,94 @@ $def= array (
                 'subtitle_help' => '',
                 'image_src' => 'Scegli un immagine',
                 'image_src_help' => '',
-            ),
-        ),
-        'ingredientCat' => 
-        array (
-            'index_edit' => 
-            array (
-                'item' => 
-                array (
-                    'ingredient_cat' => 
-                    array (
-                        'btn' => 
-                        array (
+            ],
+        ],
+        'ingredientCat' => [
+            'index_edit' => [
+                'item' => [
+                    'ingredient_cat' => [
+                        'btn' => [
                             'new' => 'Aggiungi Variazione Categoria Pietanza',
-                        ),
-                    ),
-                ),
-            ),
-            'ingredient' => 
-            array (
-                'index_edit' => 
-                array (
-                    'item' => 
-                    array (
-                        'ingredient' => 
-                        array (
-                            'btn' => 
-                            array (
+                        ],
+                    ],
+                ],
+            ],
+            'ingredient' => [
+                'index_edit' => [
+                    'item' => [
+                        'ingredient' => [
+                            'btn' => [
                                 'new' => 'nuovo ingrediente',
-                            ),
-                        ),
-                    ),
-                ),
-            ),
-        ),
-        'ingredient_cat' => 
-        array (
-            'index_edit' => 
-            array (
-                'item' => 
-                array (
-                    'ingredient_cat' => 
-                    array (
-                        'btn' => 
-                        array (
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+        ],
+        'ingredient_cat' => [
+            'index_edit' => [
+                'item' => [
+                    'ingredient_cat' => [
+                        'btn' => [
                             'new' => 'Aggiungi Tipologia Variazione',
-                        ),
-                    ),
-                ),
-                'tab' => 
-                array (
+                        ],
+                    ],
+                ],
+                'tab' => [
                     'ingredient' => 'variazioni',
-                ),
-            ),
-            'ingredient' => 
-            array (
-                'index_edit' => 
-                array (
-                    'item' => 
-                    array (
-                        'ingredient' => 
-                        array (
-                            'btn' => 
-                            array (
+                ],
+            ],
+            'ingredient' => [
+                'index_edit' => [
+                    'item' => [
+                        'ingredient' => [
+                            'btn' => [
                                 'new' => 'aggiungi nuova variazione',
-                            ),
-                        ),
-                    ),
-                ),
-            ),
-            'tab' => 
-            array (
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+            'tab' => [
                 'ingredient' => 'variazioni',
                 'content' => 'info',
-            ),
-        ),
-        'recipe' => 
-        array (
-            'index_edit' => 
-            array (
-                'item' => 
-                array (
-                    'recipe' => 
-                    array (
-                        'btn' => 
-                        array (
+            ],
+        ],
+        'recipe' => [
+            'index_edit' => [
+                'item' => [
+                    'recipe' => [
+                        'btn' => [
                             'new' => 'Aggiungi Pietanza',
-                        ),
-                    ),
-                ),
-            ),
-            'ingredient_cat' => 
-            array (
-                'index_ajax' => 
-                array (
-                    'field' => 
-                    array (
+                        ],
+                    ],
+                ],
+            ],
+            'ingredient_cat' => [
+                'index_ajax' => [
+                    'field' => [
                         'qty' => 'quantità',
-                    ),
-                ),
-            ),
-        ),
-    ),
-    'cuisineCat' => 
-    array (
+                    ],
+                ],
+            ],
+        ],
+    ],
+    'cuisineCat' => [
         'title' => 'Tipologia Cucina',
         'title_placeholder' => 'Tipologia Cucina',
         'title_help' => 'es. Carne, Pesce, Pizza',
         'choose' => 'Scegli Tipologia Cucina',
-    ),
-    'edit' => 
-    array (
-        'cuisineCat' => 
-        array (
+    ],
+    'edit' => [
+        'cuisineCat' => [
             'title' => 'Tipologia Cucina',
             'title_placeholder' => 'Tipologia Cucina',
             'title_help' => 'es. Carne, Pesce, Pizza',
             'choose' => 'Scegli Tipologia Cucina',
-        ),
-        'contatti' => 
-        array (
+        ],
+        'contatti' => [
             'facebook_alert' => 'fb alert',
-        ),
+        ],
         'menu' => 'Menù',
         'photo' => 'Foto',
         'blog' => 'Blog',
@@ -234,32 +189,27 @@ $def= array (
         'location' => 'Indirizzo',
         'phone' => 'Numero del locale',
         'facebook_alert' => 'Inserire il link di facebook',
-        'cuisine' => 
-        array (
+        'cuisine' => [
             'title' => 'Tipologia Cucina',
             'title_placeholder' => 'Tipologia Cucina',
             'title_help' => 'es. Carne, Pesce, Pizza',
             'choose' => 'Scegli Tipologia Cucina',
-        ),
-        'top' => 
-        array (
+        ],
+        'top' => [
             'location' => 'luogo',
             'restaurant' => 'ristorante',
             'food' => 'cibo',
             'order_pay' => 'procedi con l\'ordine',
-        ),
+        ],
         'image_src' => '',
         'image_src_placeholder' => 'photo.png',
         'opening_hours' => 'Orari Apertura',
-        'field' => 
-        array (
+        'field' => [
             'image_src' => 'logo ristorante',
-        ),
-    ),
-    'location' => 
-    array (
-        'edit' => 
-        array (
+        ],
+    ],
+    'location' => [
+        'edit' => [
             'route' => 'Indirizzo',
             'route_placeholder' => 'Inserire indirizzo',
             'route_help' => '',
@@ -278,8 +228,8 @@ $def= array (
             'country_short' => 'Codice del paese',
             'country_short_help' => '',
             'country_short_placeholder' => 'IT,UK,ecc.',
-        ),
-    ),
+        ],
+    ],
     'firstname' => 'Nome',
     'firstname_placeholder' => 'Es. Mario',
     'firstname_help' => 'il tuo nome di battesimo',
@@ -301,8 +251,7 @@ $def= array (
     'password_confirmation' => 'Ripeti Password',
     'password_confirmation_placeholder' => 'Ripeti Password',
     'password_confirmation_help' => 'ripeti la tua segretissima password',
-    'create' => 
-    array (
+    'create' => [
         'title' => 'Aggiungi il tuo Ristorante',
         'title_alert' => 'Nome del ristorante obbligatorio',
         'title_help' => 'Es. Ristorante da Gino',
@@ -330,45 +279,37 @@ $def= array (
         'txt_alert' => 'Recensione obbligatoria',
         'rules-doc' => 'Per poter iscrivere il Vostro Ristorante è necessario accettare le nostre regole di accettazione del servizio',
         'rules-doc_help' => 'Si prega di leggere attentamente le regole del sito prima di accettare',
-        'cuisine' => 
-        array (
+        'cuisine' => [
             'title' => 'Categoria Piatti',
             'title_placeholder' => 'Categoria Piatti',
             'title_help' => 'es. pizze classiche, antipasti',
             'choose' => 'Scegli Categoria Piatto',
-            'index_edit' => 
-            array (
+            'index_edit' => [
                 'choose_cuisine' => 'Scegli Categoria',
                 'add_cat' => 'Aggiungi Categoria Piatto',
-                'item' => 
-                array (
-                    'cuisine' => 
-                    array (
+                'item' => [
+                    'cuisine' => [
                         'new' => 'Nuova',
-                    ),
-                ),
-            ),
-        ),
-        'cuisineCat' => 
-        array (
+                    ],
+                ],
+            ],
+        ],
+        'cuisineCat' => [
             'title' => 'Tipologia Cucina',
             'title_placeholder' => 'Tipologia Cucina',
             'title_help' => 'es. Carne, Pesce, Pizza',
             'choose' => 'Scegli Tipologia Cucina',
-        ),
-        'edit' => 
-        array (
-            'cuisineCat' => 
-            array (
+        ],
+        'edit' => [
+            'cuisineCat' => [
                 'title' => 'Tipologia Cucina',
                 'title_placeholder' => 'Tipologia Cucina',
                 'title_help' => 'es. Carne, Pesce, Pizza',
                 'choose' => 'Scegli Tipologia Cucina',
-            ),
-            'contatti' => 
-            array (
+            ],
+            'contatti' => [
                 'facebook_alert' => 'fb alert',
-            ),
+            ],
             'menu' => 'Menù',
             'photo' => 'Foto',
             'blog' => 'Blog',
@@ -381,25 +322,21 @@ $def= array (
             'location' => 'Indirizzo',
             'phone' => 'Numero del locale',
             'facebook_alert' => 'Inserire il link di facebook',
-            'cuisine' => 
-            array (
+            'cuisine' => [
                 'title' => 'Tipologia Cucina',
                 'title_placeholder' => 'Tipologia Cucina',
                 'title_help' => 'es. Carne, Pesce, Pizza',
                 'choose' => 'Scegli Tipologia Cucina',
-            ),
-            'top' => 
-            array (
+            ],
+            'top' => [
                 'location' => 'luogo',
                 'restaurant' => 'ristorante',
                 'food' => 'cibo',
                 'order_pay' => 'procedi con l\'ordine',
-            ),
-        ),
-        'location' => 
-        array (
-            'edit' => 
-            array (
+            ],
+        ],
+        'location' => [
+            'edit' => [
                 'route' => 'Indirizzo',
                 'route_placeholder' => 'Inserire indirizzo',
                 'route_help' => '',
@@ -418,8 +355,8 @@ $def= array (
                 'country_short' => 'Codice del paese',
                 'country_short_help' => '',
                 'country_short_placeholder' => 'IT,UK,ecc.',
-            ),
-        ),
+            ],
+        ],
         'firstname' => 'Nome',
         'firstname_placeholder' => 'Es. Mario',
         'firstname_help' => 'il tuo nome di battesimo',
@@ -441,16 +378,13 @@ $def= array (
         'password_confirmation' => 'Ripeti Password',
         'password_confirmation_placeholder' => 'Ripeti Password',
         'password_confirmation_help' => 'ripeti la tua segretissima password',
-        'create' => 
-        array (
-            'user' => 
-            array (
+        'create' => [
+            'user' => [
                 'title' => 'registrazione utente',
-            ),
-            'restaurant' => 
-            array (
+            ],
+            'restaurant' => [
                 'title' => 'La registrazione è veloce, facile e gratuita!',
-            ),
+            ],
             'image_src' => 'theme/pub/images/take-out-online-food-ordering-food-delivery.png',
             'title_banner' => 'Inserire il tuo ristorante, conviene !',
             'slogan_banner' => 'Hai un\'attività che consegna a domicilio? Iscriversi al circuito FoodTribù conviene!',
@@ -468,9 +402,8 @@ $def= array (
             'submit' => 'Aggiungi Ristorante',
             'rules-doc' => 'nel mezzo di cammin di nostra vita mi trovai smarrito che la retta via ..',
             'thumbnail' => 'Fare click qui oppure trasportare l\'immagine su questo riquadro',
-        ),
-        'create-not-logged' => 
-        array (
+        ],
+        'create-not-logged' => [
             'title' => 'registrazione utente',
             'subtitle' => 'una volta registrato potrai',
             'image_src' => 'theme/pub/images/community.png',
@@ -479,9 +412,8 @@ $def= array (
             'answer1' => 'risposta 1',
             'answer2' => 'risposta 2',
             'submit' => 'continua »',
-        ),
-        'index' => 
-        array (
+        ],
+        'index' => [
             'result_show' => 'Ristoranti trovati',
             'choose_cuisine' => 'Scegli la tipologia di cucina',
             'favorite_food' => 'Cerca il tuo cibo preferito',
@@ -489,9 +421,8 @@ $def= array (
             'view_photo' => 'Guarda le foto',
             'view_article' => 'Guarda gli articoli',
             'view_contact' => 'Guarda i contatti',
-        ),
-        'show' => 
-        array (
+        ],
+        'show' => [
             'menu' => 'Menù',
             'photo' => 'Foto',
             'blog' => 'Blog',
@@ -504,28 +435,24 @@ $def= array (
             'location' => 'Indirizzo',
             'phone' => 'Numero del locale',
             'order' => 'Ordina subito',
-            'tab' => 
-            array (
+            'tab' => [
                 'menu' => 'Menù',
                 'cuisine' => 'Menù',
                 'photo' => 'Foto',
                 'article' => 'Blog',
                 'contact' => 'Contatti',
                 'map' => 'Dove siamo',
-            ),
+            ],
             'question1' => 'Posso prenotare a questo ristorante tramite chatbot?',
             'answer1' => 'Puoi prenotare tramite chatbot anche dalla nostra pagina facebook o dalla pagina facebook del ristorante, se vedi il loghetto di Foody associato a questo ristorante',
             'question2' => 'Cosa posso chiedere al chatbot?',
             'answer2' => 'Puoi interagire col chatbot chiedendo, eventuali promozioni in atto, orari e giorni di apertura, tempi di consegna, cibi per eventuali esigenze alimentari',
-        ),
-        'photo' => 
-        array (
-            'create' => 
-            array (
+        ],
+        'photo' => [
+            'create' => [
                 'title' => 'Crea il tuo album',
                 'subtitle' => '',
-                'field' => 
-                array (
+                'field' => [
                     'title' => 'Inserisci il titolo della foto',
                     'title_placeholder' => 'Inserisci il titolo della foto',
                     'title_help' => '',
@@ -534,17 +461,14 @@ $def= array (
                     'subtitle_help' => '',
                     'image_src' => 'Scegli un immagine',
                     'image_src_help' => '',
-                ),
-            ),
-        ),
-        'article' => 
-        array (
-            'create' => 
-            array (
+                ],
+            ],
+        ],
+        'article' => [
+            'create' => [
                 'title' => 'Crea articolo',
                 'subtitle' => '',
-                'field' => 
-                array (
+                'field' => [
                     'title' => 'Titolo dell\'articolo',
                     'title_placeholder' => 'Inserisci il titolo dell\'articolo',
                     'title_help' => '',
@@ -556,37 +480,31 @@ $def= array (
                     'txt_help' => '',
                     'image_src' => 'Scegli un immagine',
                     'image_src_help' => '',
-                ),
-            ),
-        ),
-        'contact' => 
-        array (
-            'index' => 
-            array (
-                'tab' => 
-                array (
+                ],
+            ],
+        ],
+        'contact' => [
+            'index' => [
+                'tab' => [
                     'menu' => 'Menù',
                     'photo' => 'Foto',
                     'article' => 'Blog',
                     'contact' => 'Contatti',
                     'map' => 'Dove siamo',
-                ),
-            ),
-        ),
-        'map' => 
-        array (
-            'index' => 
-            array (
-                'tab' => 
-                array (
+                ],
+            ],
+        ],
+        'map' => [
+            'index' => [
+                'tab' => [
                     'menu' => 'Menù',
                     'photo' => 'Foto',
                     'article' => 'Blog',
                     'contact' => 'Contatti',
                     'map' => 'Dove siamo',
-                ),
-            ),
-        ),
+                ],
+            ],
+        ],
         'image_src' => 'Logo ristorante',
         'thumbnail' => 'Fare click qui oppure trasportare l\'immagine su questo riquadro',
         'rules-doc_placeholder' => 'Gentile Ristoratore, di seguito potrai compilare alcuni form, in cui ti chiederemo alcuni dati e informazioni sulla tua attività, questi dati faranno parte di una pagina pubblica che sarà visibile agli utenti della community di Foodtribù, tra i quali ci potranno essere i tuoi soliti clienti e di nuovi, che potranno usufruire degli innovativi servizi di prenotazione d\'asporto del portale. I dati che pubblicheremo saranno trattati in ottemperanza ai    nostri Termini e Condizioni (link) e alla nostra Policy Privacy (link) Conforme al d.lgs. 101/2018 di adeguamento al GDPR Reg. UE n. 679/2016',
@@ -594,8 +512,7 @@ $def= array (
         'address_placeholder' => 'Inserite il vostro indirizzo per farvi trovare da nuovi clienti',
         'submit' => 'Aggiungi ristorante',
         'image_src_placeholder' => 'photo.png',
-        'field' => 
-        array (
+        'field' => [
             'title' => 'Nome Ristorante',
             'title_alert' => 'Nome del ristorante obbligatorio',
             'title_help' => 'Es. Ristorante da Gino',
@@ -623,45 +540,37 @@ $def= array (
             'txt_alert' => 'Recensione obbligatoria',
             'rules-doc' => 'Per poter iscrivere il Vostro Ristorante è necessario accettare le nostre regole di accettazione del servizio',
             'rules-doc_help' => 'Si prega di leggere attentamente le regole del sito prima di accettare',
-            'cuisine' => 
-            array (
+            'cuisine' => [
                 'title' => 'Categoria Piatti',
                 'title_placeholder' => 'Categoria Piatti',
                 'title_help' => 'es. pizze classiche, antipasti',
                 'choose' => 'Scegli Categoria Piatto',
-                'index_edit' => 
-                array (
+                'index_edit' => [
                     'choose_cuisine' => 'Scegli Categoria',
                     'add_cat' => 'Aggiungi Categoria Piatto',
-                    'item' => 
-                    array (
-                        'cuisine' => 
-                        array (
+                    'item' => [
+                        'cuisine' => [
                             'new' => 'Nuova',
-                        ),
-                    ),
-                ),
-            ),
-            'cuisineCat' => 
-            array (
+                        ],
+                    ],
+                ],
+            ],
+            'cuisineCat' => [
                 'title' => 'Tipologia Cucina',
                 'title_placeholder' => 'Tipologia Cucina',
                 'title_help' => 'es. Carne, Pesce, Pizza',
                 'choose' => 'Scegli Tipologia Cucina',
-            ),
-            'edit' => 
-            array (
-                'cuisineCat' => 
-                array (
+            ],
+            'edit' => [
+                'cuisineCat' => [
                     'title' => 'Tipologia Cucina',
                     'title_placeholder' => 'Tipologia Cucina',
                     'title_help' => 'es. Carne, Pesce, Pizza',
                     'choose' => 'Scegli Tipologia Cucina',
-                ),
-                'contatti' => 
-                array (
+                ],
+                'contatti' => [
                     'facebook_alert' => 'fb alert',
-                ),
+                ],
                 'menu' => 'Menù',
                 'photo' => 'Foto',
                 'blog' => 'Blog',
@@ -674,25 +583,21 @@ $def= array (
                 'location' => 'Indirizzo',
                 'phone' => 'Numero del locale',
                 'facebook_alert' => 'Inserire il link di facebook',
-                'cuisine' => 
-                array (
+                'cuisine' => [
                     'title' => 'Tipologia Cucina',
                     'title_placeholder' => 'Tipologia Cucina',
                     'title_help' => 'es. Carne, Pesce, Pizza',
                     'choose' => 'Scegli Tipologia Cucina',
-                ),
-                'top' => 
-                array (
+                ],
+                'top' => [
                     'location' => 'luogo',
                     'restaurant' => 'ristorante',
                     'food' => 'cibo',
                     'order_pay' => 'procedi con l\'ordine',
-                ),
-            ),
-            'location' => 
-            array (
-                'edit' => 
-                array (
+                ],
+            ],
+            'location' => [
+                'edit' => [
                     'route' => 'Indirizzo',
                     'route_placeholder' => 'Inserire indirizzo',
                     'route_help' => '',
@@ -711,8 +616,8 @@ $def= array (
                     'country_short' => 'Codice del paese',
                     'country_short_help' => '',
                     'country_short_placeholder' => 'IT,UK,ecc.',
-                ),
-            ),
+                ],
+            ],
             'firstname' => 'Nome',
             'firstname_placeholder' => 'Es. Mario',
             'firstname_help' => 'il tuo nome di battesimo',
@@ -734,16 +639,13 @@ $def= array (
             'password_confirmation' => 'Ripeti Password',
             'password_confirmation_placeholder' => 'Ripeti Password',
             'password_confirmation_help' => 'ripeti la tua segretissima password',
-            'create' => 
-            array (
-                'user' => 
-                array (
+            'create' => [
+                'user' => [
                     'title' => 'registrazione utente',
-                ),
-                'restaurant' => 
-                array (
+                ],
+                'restaurant' => [
                     'title' => 'La registrazione è veloce, facile e gratuita!',
-                ),
+                ],
                 'image_src' => 'theme/pub/images/take-out-online-food-ordering-food-delivery.png',
                 'title_banner' => 'Inserire il tuo ristorante, conviene !',
                 'slogan_banner' => 'Hai un\'attività che consegna a domicilio? Iscriversi al circuito FoodTribù conviene!',
@@ -761,9 +663,8 @@ $def= array (
                 'submit' => 'Aggiungi Ristorante',
                 'rules-doc' => 'nel mezzo di cammin di nostra vita mi trovai smarrito che la retta via ..',
                 'thumbnail' => 'Fare click qui oppure trasportare l\'immagine su questo riquadro',
-            ),
-            'create-not-logged' => 
-            array (
+            ],
+            'create-not-logged' => [
                 'title' => 'registrazione utente',
                 'subtitle' => 'una volta registrato potrai',
                 'image_src' => 'theme/pub/images/community.png',
@@ -772,9 +673,8 @@ $def= array (
                 'answer1' => 'risposta 1',
                 'answer2' => 'risposta 2',
                 'submit' => 'continua »',
-            ),
-            'index' => 
-            array (
+            ],
+            'index' => [
                 'result_show' => 'Ristoranti trovati',
                 'choose_cuisine' => 'Scegli la tipologia di cucina',
                 'favorite_food' => 'Cerca il tuo cibo preferito',
@@ -782,9 +682,8 @@ $def= array (
                 'view_photo' => 'Guarda le foto',
                 'view_article' => 'Guarda gli articoli',
                 'view_contact' => 'Guarda i contatti',
-            ),
-            'show' => 
-            array (
+            ],
+            'show' => [
                 'menu' => 'Menù',
                 'photo' => 'Foto',
                 'blog' => 'Blog',
@@ -797,28 +696,24 @@ $def= array (
                 'location' => 'Indirizzo',
                 'phone' => 'Numero del locale',
                 'order' => 'Ordina subito',
-                'tab' => 
-                array (
+                'tab' => [
                     'menu' => 'Menù',
                     'cuisine' => 'Menù',
                     'photo' => 'Foto',
                     'article' => 'Blog',
                     'contact' => 'Contatti',
                     'map' => 'Dove siamo',
-                ),
+                ],
                 'question1' => 'Posso prenotare a questo ristorante tramite chatbot?',
                 'answer1' => 'Puoi prenotare tramite chatbot anche dalla nostra pagina facebook o dalla pagina facebook del ristorante, se vedi il loghetto di Foody associato a questo ristorante',
                 'question2' => 'Cosa posso chiedere al chatbot?',
                 'answer2' => 'Puoi interagire col chatbot chiedendo, eventuali promozioni in atto, orari e giorni di apertura, tempi di consegna, cibi per eventuali esigenze alimentari',
-            ),
-            'photo' => 
-            array (
-                'create' => 
-                array (
+            ],
+            'photo' => [
+                'create' => [
                     'title' => 'Crea il tuo album',
                     'subtitle' => '',
-                    'field' => 
-                    array (
+                    'field' => [
                         'title' => 'Inserisci il titolo della foto',
                         'title_placeholder' => 'Inserisci il titolo della foto',
                         'title_help' => '',
@@ -827,17 +722,14 @@ $def= array (
                         'subtitle_help' => '',
                         'image_src' => 'Scegli un immagine',
                         'image_src_help' => '',
-                    ),
-                ),
-            ),
-            'article' => 
-            array (
-                'create' => 
-                array (
+                    ],
+                ],
+            ],
+            'article' => [
+                'create' => [
                     'title' => 'Crea articolo',
                     'subtitle' => '',
-                    'field' => 
-                    array (
+                    'field' => [
                         'title' => 'Titolo dell\'articolo',
                         'title_placeholder' => 'Inserisci il titolo dell\'articolo',
                         'title_help' => '',
@@ -849,37 +741,31 @@ $def= array (
                         'txt_help' => '',
                         'image_src' => 'Scegli un immagine',
                         'image_src_help' => '',
-                    ),
-                ),
-            ),
-            'contact' => 
-            array (
-                'index' => 
-                array (
-                    'tab' => 
-                    array (
+                    ],
+                ],
+            ],
+            'contact' => [
+                'index' => [
+                    'tab' => [
                         'menu' => 'Menù',
                         'photo' => 'Foto',
                         'article' => 'Blog',
                         'contact' => 'Contatti',
                         'map' => 'Dove siamo',
-                    ),
-                ),
-            ),
-            'map' => 
-            array (
-                'index' => 
-                array (
-                    'tab' => 
-                    array (
+                    ],
+                ],
+            ],
+            'map' => [
+                'index' => [
+                    'tab' => [
                         'menu' => 'Menù',
                         'photo' => 'Foto',
                         'article' => 'Blog',
                         'contact' => 'Contatti',
                         'map' => 'Dove siamo',
-                    ),
-                ),
-            ),
+                    ],
+                ],
+            ],
             'image_src' => 'Logo ristorante',
             'thumbnail' => 'Fare click qui oppure trasportare l\'immagine su questo riquadro',
             'rules-doc_placeholder' => 'Gentile Ristoratore, di seguito potrai compilare alcuni form, in cui ti chiederemo alcuni dati e informazioni sulla tua attività, questi dati faranno parte di una pagina pubblica che sarà visibile agli utenti della community di Foodtribù, tra i quali ci potranno essere i tuoi soliti clienti e di nuovi, che potranno usufruire degli innovativi servizi di prenotazione d\'asporto del portale. I dati che pubblicheremo saranno trattati in ottemperanza ai    nostri Termini e Condizioni (link) e alla nostra Policy Privacy (link) Conforme al d.lgs. 101/2018 di adeguamento al GDPR Reg. UE n. 679/2016',
@@ -887,7 +773,7 @@ $def= array (
             'address_placeholder' => 'Inserite il vostro indirizzo per farvi trovare da nuovi clienti',
             'submit' => 'Aggiungi ristorante',
             'image_src_placeholder' => 'photo.png',
-        ),
+        ],
         'title_banner' => 'Inserire il tuo ristorante, conviene !',
         'slogan_banner' => 'Hai un\'attività che consegna a domicilio? Iscriversi al circuito FoodTribù conviene!',
         'subtitle_banner' => '<strong>Migliaia di utenti</strong> visitano il sito quotidianamente, la Tua presenza nel nostro circuito Ti garantisce <strong>maggior visibilità</strong> e possibilità di guadagni senza dover fare alcuno sforzo.',
@@ -896,9 +782,8 @@ $def= array (
         'answer1' => 'Foodtribù ti concede migliaia di nuovi clienti, avrai più prenotazioni, tecnologie di ultima generazione, pubblicità e un servizio chatbot.',
         'question2' => 'Quali sono i benefici?',
         'answer2' => 'Foodtribù fa crescere il tuo business, Analisi della performance, controllo sotto ogni aspetto grazie una tecnologia semplice da usare per evitare di perdere tempo.',
-    ),
-    'create-not-logged' => 
-    array (
+    ],
+    'create-not-logged' => [
         'title' => 'registrazione utente',
         'subtitle' => 'una volta registrato potrai',
         'image_src' => 'theme/pub/images/community.png',
@@ -907,9 +792,8 @@ $def= array (
         'answer1' => 'risposta 1',
         'answer2' => 'risposta 2',
         'submit' => 'continua »',
-    ),
-    'index' => 
-    array (
+    ],
+    'index' => [
         'result_show' => 'Ristoranti trovati',
         'choose_cuisine' => 'Scegli la tipologia di cucina',
         'favorite_food' => 'Cerca il tuo cibo preferito',
@@ -917,9 +801,8 @@ $def= array (
         'view_photo' => 'Guarda le foto',
         'view_article' => 'Guarda gli articoli',
         'view_contact' => 'Guarda i contatti',
-    ),
-    'show' => 
-    array (
+    ],
+    'show' => [
         'menu' => 'Menù',
         'photo' => 'Foto',
         'blog' => 'Blog',
@@ -932,15 +815,14 @@ $def= array (
         'location' => 'Indirizzo',
         'phone' => 'Numero del locale',
         'order' => 'Ordina subito',
-        'tab' => 
-        array (
+        'tab' => [
             'menu' => 'Menù',
             'cuisine' => 'Menù',
             'photo' => 'Foto',
             'article' => 'Blog',
             'contact' => 'Contatti',
             'map' => 'Dove siamo',
-        ),
+        ],
         'question1' => 'Posso prenotare a questo ristorante tramite chatbot?',
         'answer1' => 'Puoi prenotare tramite chatbot anche dalla nostra pagina facebook o dalla pagina facebook del ristorante, se vedi il loghetto di Foody associato a questo ristorante',
         'question2' => 'Cosa posso chiedere al chatbot?',
@@ -948,15 +830,12 @@ $def= array (
         'restaurant' => 'Menù',
         'article' => 'Blog',
         'map' => 'Dove Siamo',
-    ),
-    'photo' => 
-    array (
-        'create' => 
-        array (
+    ],
+    'photo' => [
+        'create' => [
             'title' => 'Crea il tuo album',
             'subtitle' => '',
-            'field' => 
-            array (
+            'field' => [
                 'title' => 'Inserisci il titolo della foto',
                 'title_placeholder' => 'Inserisci il titolo della foto',
                 'title_help' => '',
@@ -965,35 +844,28 @@ $def= array (
                 'subtitle_help' => '',
                 'image_src' => 'Scegli un immagine',
                 'image_src_help' => '',
-            ),
-        ),
-        'index_edit' => 
-        array (
-            'tab' => 
-            array (
+            ],
+        ],
+        'index_edit' => [
+            'tab' => [
                 'cuisine' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
                 'contact' => 'Contatti',
                 'map' => 'Dove Siamo',
-            ),
-        ),
-        'index' => 
-        array (
-            'tab' => 
-            array (
+            ],
+        ],
+        'index' => [
+            'tab' => [
                 'cuisine' => 'Menu',
-            ),
-        ),
-    ),
-    'article' => 
-    array (
-        'create' => 
-        array (
+            ],
+        ],
+    ],
+    'article' => [
+        'create' => [
             'title' => 'Crea articolo',
             'subtitle' => '',
-            'field' => 
-            array (
+            'field' => [
                 'title' => 'Titolo dell\'articolo',
                 'title_placeholder' => 'Inserisci il titolo dell\'articolo',
                 'title_help' => '',
@@ -1005,53 +877,43 @@ $def= array (
                 'txt_help' => '',
                 'image_src' => 'Scegli un immagine',
                 'image_src_help' => '',
-            ),
-            'tab' => 
-            array (
+            ],
+            'tab' => [
                 'content' => 'Info',
                 'cuisine' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
-            ),
-        ),
-        'index' => 
-        array (
-            'tab' => 
-            array (
+            ],
+        ],
+        'index' => [
+            'tab' => [
                 'cuisine' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
                 'contact' => 'Contatti',
                 'map' => 'Dove Siamo',
-            ),
-        ),
-        'index_edit' => 
-        array (
-            'tab' => 
-            array (
+            ],
+        ],
+        'index_edit' => [
+            'tab' => [
                 'cuisine' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
                 'contact' => 'Contatti',
                 'map' => 'Dove Siamo',
-            ),
-            'item' => 
-            array (
-                'article' => 
-                array (
-                    'btn' => 
-                    array (
+            ],
+            'item' => [
+                'article' => [
+                    'btn' => [
                         'new' => 'nuovo articolo',
-                    ),
-                ),
-            ),
-        ),
-        'edit' => 
-        array (
+                    ],
+                ],
+            ],
+        ],
+        'edit' => [
             'title' => 'Crea articolo',
             'subtitle' => '',
-            'field' => 
-            array (
+            'field' => [
                 'title' => 'Titolo dell\'articolo',
                 'title_placeholder' => 'Inserisci il titolo dell\'articolo',
                 'title_help' => '',
@@ -1063,71 +925,59 @@ $def= array (
                 'txt_help' => '',
                 'image_src' => 'Scegli un immagine',
                 'image_src_help' => '',
-            ),
-            'tab' => 
-            array (
+            ],
+            'tab' => [
                 'content' => 'Info',
                 'cuisine' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
-            ),
-        ),
-    ),
-    'contact' => 
-    array (
-        'index' => 
-        array (
-            'tab' => 
-            array (
+            ],
+        ],
+    ],
+    'contact' => [
+        'index' => [
+            'tab' => [
                 'menu' => 'Menù',
                 'photo' => 'Foto',
                 'article' => 'Blog',
                 'contact' => 'Contatti',
                 'map' => 'Dove Siamo',
                 'cuisine' => 'Menu',
-            ),
-        ),
-    ),
-    'map' => 
-    array (
-        'index' => 
-        array (
-            'tab' => 
-            array (
+            ],
+        ],
+    ],
+    'map' => [
+        'index' => [
+            'tab' => [
                 'menu' => 'Menù',
                 'photo' => 'Foto',
                 'article' => 'Blog',
                 'contact' => 'Contatti',
                 'map' => 'Dove Siamo',
                 'cuisine' => 'Menu',
-            ),
-        ),
-    ),
+            ],
+        ],
+    ],
     'image_src' => 'Logo Ristorante',
     'thumbnail' => 'Fare click qui oppure trasportare l\'immagine su questo riquadro',
     'rules-doc_placeholder' => 'nel mezzo di cammin di nostra vita mi trovai smarrito che la retta via ..',
     'address_help' => 'Via po, 40 , 330900 (RM)',
     'address_placeholder' => 'Inserite il vostro indirizzo per farvi trovare da nuovi clienti',
     'submit' => 'Aggiungi ristorante',
-    'create-logged' => 
-    array (
+    'create-logged' => [
         'rules-doc' => 'nel mezzo di cammin di nostra vita mi trovai smarrito che la retta via ..',
-    ),
-    'menu' => 
-    array (
-        'index_edit' => 
-        array (
-            'cuisineCat' => 
-            array (
+    ],
+    'menu' => [
+        'index_edit' => [
+            'cuisineCat' => [
                 'title' => 'Tipologia Cucina',
                 'title_placeholder' => 'Tipologia Cucina',
                 'title_help' => 'es. Carne, Pesce, Pizza',
                 'choose' => 'Scegli Tipologia Cucina',
-            ),
-            'contatti' => 
-            array (
+            ],
+            'contatti' => [
                 'facebook_alert' => 'fb alert',
-            ),
+            ],
             'menu' => 'Menù',
             'photo' => 'Foto',
             'blog' => 'Blog',
@@ -1140,52 +990,44 @@ $def= array (
             'location' => 'Indirizzo',
             'phone' => 'Numero del locale',
             'facebook_alert' => 'Inserire il link di facebook',
-            'cuisine' => 
-            array (
+            'cuisine' => [
                 'title' => 'Tipologia Cucina',
                 'title_placeholder' => 'Tipologia Cucina',
                 'title_help' => 'es. Carne, Pesce, Pizza',
                 'choose' => 'Scegli Tipologia Cucina',
-            ),
-            'top' => 
-            array (
+            ],
+            'top' => [
                 'location' => 'luogo',
                 'restaurant' => 'ristorante',
                 'food' => 'cibo',
                 'order_pay' => 'procedi con l\'ordine',
-            ),
+            ],
             'image_src' => '',
             'image_src_placeholder' => 'photo.png',
             'opening_hours' => 'Orari Apertura',
-        ),
-        'index' => 
-        array (
-            'tab' => 
-            array (
+        ],
+        'index' => [
+            'tab' => [
                 'menu' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
                 'contact' => 'Contatti',
                 'map' => 'Dove Siamo',
-            ),
-        ),
-    ),
-    'restaurant' => 
-    array (
-        'show' => 
-        array (
-            'tab' => 
-            array (
+            ],
+        ],
+    ],
+    'restaurant' => [
+        'show' => [
+            'tab' => [
                 'cuisine' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
                 'contact' => 'Contatti',
                 'map' => 'Dove Siamo',
-            ),
-        ),
-    ),
-    'tab' => 
-    array (
+            ],
+        ],
+    ],
+    'tab' => [
         'content' => 'info',
         'photo' => 'Foto',
         'cuisine' => 'Menù',
@@ -1199,13 +1041,10 @@ $def= array (
         'profile' => 'ruoli',
         'recipe' => 'piatti',
         'ingredient_cat' => 'variazioni',
-    ),
-    'cart' => 
-    array (
-        'create' => 
-        array (
-            'field' => 
-            array (
+    ],
+    'cart' => [
+        'create' => [
+            'field' => [
                 'firstname' => 'Nome',
                 'firstname_placeholder' => 'es. Mario',
                 'firstname_help' => 'il tuo nome',
@@ -1224,37 +1063,29 @@ $def= array (
                 'phone' => 'num cellulare',
                 'phone_placeholder' => 'es. 347 ...',
                 'phone_help' => 'recapito telefonico',
-            ),
-            'tab' => 
-            array (
+            ],
+            'tab' => [
                 'content' => 'Info',
                 'cuisine' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
                 'contact' => 'Contatti',
                 'map' => 'Dove Siamo',
-            ),
-        ),
-    ),
-    'event' => 
-    array (
-        'index_edit' => 
-        array (
-            'item' => 
-            array (
-                'event' => 
-                array (
-                    'btn' => 
-                    array (
+            ],
+        ],
+    ],
+    'event' => [
+        'index_edit' => [
+            'item' => [
+                'event' => [
+                    'btn' => [
                         'new' => 'Aggiungi Evento/Promozione',
-                    ),
-                ),
-            ),
-        ),
-        'create' => 
-        array (
-            'field' => 
-            array (
+                    ],
+                ],
+            ],
+        ],
+        'create' => [
+            'field' => [
                 'title' => 'nome evento',
                 'title_placeholder' => 'es: festa della zucca',
                 'title_help' => 'nome evento/promozione ',
@@ -1272,19 +1103,16 @@ $def= array (
                 'date_end' => 'data fine evento',
                 'date_end_placeholder' => ' ',
                 'date_end_help' => ' la data fine evento',
-            ),
-            'tab' => 
-            array (
+            ],
+            'tab' => [
                 'content' => 'Info',
                 'cuisine' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
-            ),
-        ),
-        'edit' => 
-        array (
-            'field' => 
-            array (
+            ],
+        ],
+        'edit' => [
+            'field' => [
                 'title' => 'nome evento',
                 'title_placeholder' => 'es: festa della zucca',
                 'title_help' => 'nome evento/promozione ',
@@ -1302,36 +1130,31 @@ $def= array (
                 'date_end' => 'data fine evento',
                 'date_end_placeholder' => ' ',
                 'date_end_help' => ' la data fine evento',
-            ),
-            'tab' => 
-            array (
+            ],
+            'tab' => [
                 'content' => 'Info',
                 'cuisine' => 'Menu',
                 'photo' => 'Foto',
                 'article' => 'Blog',
-            ),
-        ),
-    ),
-    'rating' => 
-    array (
-        'index_edit' => 
-        array (
-            'item' => 
-            array (
-                'rating' => 
-                array (
-                    'btn' => 
-                    array (
+            ],
+        ],
+    ],
+    'rating' => [
+        'index_edit' => [
+            'item' => [
+                'rating' => [
+                    'btn' => [
                         'new' => 'Aggiungi valutazione',
-                    ),
-                ),
-            ),
-        ),
-    ),
-);
+                    ],
+                ],
+            ],
+        ],
+    ],
+];
 
-$def['cuisine']['opening_hours']['title']='Orario di Apertura';
-$def['cuisine']['choose_cat']['title']='Tipologia Piatti';
+$def['cuisine']['opening_hours']['title'] = 'Orario di Apertura';
+$def['cuisine']['choose_cat']['title'] = 'Tipologia Piatti';
 
-$def['tab']['ingredient']='ingredienti variazione';
+$def['tab']['ingredient'] = 'ingredienti variazione';
+
 return $def;

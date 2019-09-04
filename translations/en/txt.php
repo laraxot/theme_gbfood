@@ -1,7 +1,5 @@
 <?php
 
-
-
 return [
     'EUR' => '&euro;',
     'test' => 'prova',
@@ -17,22 +15,22 @@ return [
     'Choose Cusine' => 'Scegli Categoria',
     'Opening Hours' => 'Orari Apertura',
 
-    'day_names'=>[
-        'sun'=>'Sunday',
-        'mon'=>'Monday',
-        'tue'=>'Tuesday',
-        'wed'=>'Wednesday',
-        'thu'=>'Thursday',
-        'fri'=>'Friday',
-        'sat'=>'Saturday',
+    'day_names' => [
+        'sun' => 'Sunday',
+        'mon' => 'Monday',
+        'tue' => 'Tuesday',
+        'wed' => 'Wednesday',
+        'thu' => 'Thursday',
+        'fri' => 'Friday',
+        'sat' => 'Saturday',
     ],
-    'day_names_short'=>[
-        'sun'=>'Sun',
-        'mon'=>'Mon',
-        'tue'=>'Tue',
-        'wed'=>'Wed',
-        'thu'=>'Thu',
-        'fri'=>'Fri',
-        'sat'=>'Sat',
+    'day_names_short' => [
+        'sun' => 'Sun',
+        'mon' => 'Mon',
+        'tue' => 'Tue',
+        'wed' => 'Wed',
+        'thu' => 'Thu',
+        'fri' => 'Fri',
+        'sat' => 'Sat',
     ],
 ];

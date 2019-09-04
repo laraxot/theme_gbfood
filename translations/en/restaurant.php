@@ -1,6 +1,5 @@
 <?php
 
-
 $def = [
     'title' => 'Restaurant Name',
     'title_help' => 'Ex. Gino Restaurant',
@@ -155,7 +154,6 @@ $def = [
         ],
     ],
 
-
     'show' => [
         'title' => 'Ready to order?',
         'subtitle' => 'A few simple steps and we are there',
@@ -222,8 +220,6 @@ $def = [
         ],
     ],
 
-
-
 /*
         'index' => [
             'tab' => [
@@ -266,7 +262,7 @@ $def = [
 ];
 
 $def['create'] = $def;
-$def['create']['image_src_placeholder']='photo.png';
+$def['create']['image_src_placeholder'] = 'photo.png';
 
 $def['edit'] = $def;
 
@@ -274,9 +270,9 @@ $def['create']['image_src'] = 'Restaurant Logo';
 $def['create']['thumbnail'] = 'Drag and Drop the Image Here';
 $def['create']['rules-doc_placeholder'] = 'nel mezzo di cammin di nostra vita mi trovai smarrito che la retta via ..';
 
-$def['create']['title']='Add your Restaurant';
-$def['create']['subtitle']='You will have a space of your own!';
-$def['create']['title_banner']= 'Enter your restaurant, it\'s worth it!';
+$def['create']['title'] = 'Add your Restaurant';
+$def['create']['subtitle'] = 'You will have a space of your own!';
+$def['create']['title_banner'] = 'Enter your restaurant, it\'s worth it!';
 $def['create']['slogan_banner'] = 'Do you have a home delivery business? Signing up for the FoodTribù circuit is worthwhile!';
 $def['create']['subtitle_banner'] = '<strong> Thousands of users </strong> visit the site on a daily basis, your presence in our circuit guarantees you <strong> greater visibility </strong> and earning potential without having to make any effort.';
 $def['create']['reg'] = 'Sign up now!';
@@ -291,23 +287,22 @@ $def['show']['answer1'] = 'You can also book through chatbot from our facebook p
 $def['show']['question2'] = 'What can I ask the chatbot?';
 $def['show']['answer2'] = 'You can interact with the chatbot asking, any promotions in progress, opening times and days, delivery times, food for any dietary needs';
 
-
 $def['create-logged']['rules-doc'] = 'nel mezzo di cammin di nostra vita mi trovai smarrito che la retta via ..';
 
-$def['cuisine']['index_edit']['opening_hours']='Opening time';
-$def['cuisine']['index_edit']['field']['day_of_week']='day';
-$def['cuisine']['index_edit']['field']['day_of_week_placeholder']='--';
-$def['cuisine']['index_edit']['field']['day_of_week_help']='day of the week';
+$def['cuisine']['index_edit']['opening_hours'] = 'Opening time';
+$def['cuisine']['index_edit']['field']['day_of_week'] = 'day';
+$def['cuisine']['index_edit']['field']['day_of_week_placeholder'] = '--';
+$def['cuisine']['index_edit']['field']['day_of_week_help'] = 'day of the week';
 
-$def['cuisine']['index_edit']['field']['open_at']='opens at';
-$def['cuisine']['index_edit']['field']['open_at_placeholder']='8:00';
-$def['cuisine']['index_edit']['field']['open_at_help']='you can divide morning and afternoon opening';
+$def['cuisine']['index_edit']['field']['open_at'] = 'opens at';
+$def['cuisine']['index_edit']['field']['open_at_placeholder'] = '8:00';
+$def['cuisine']['index_edit']['field']['open_at_help'] = 'you can divide morning and afternoon opening';
 
-$def['cuisine']['index_edit']['field']['close_at']='closes at';
-$def['cuisine']['index_edit']['field']['close_at_placeholder']='12:00';
-$def['cuisine']['index_edit']['field']['close_at_help']='';
+$def['cuisine']['index_edit']['field']['close_at'] = 'closes at';
+$def['cuisine']['index_edit']['field']['close_at_placeholder'] = '12:00';
+$def['cuisine']['index_edit']['field']['close_at_help'] = '';
 
-$def['create']['field']=$def['create'];
+$def['create']['field'] = $def['create'];
 
 $def['edit']['top'] = [
     'location' => 'Place',
@@ -316,11 +311,11 @@ $def['edit']['top'] = [
     'order_pay' => 'Confirm Order',
 ];
 
-$def['tab']['content']='Info';
-$def['tab']['photo']='Photo';
-$def['tab']['cuisine']='Menù';
-$def['tab']['article']='Blog';
-$def['tab']['contact']='Contacts';
-$def['tab']['map']='Map';
+$def['tab']['content'] = 'Info';
+$def['tab']['photo'] = 'Photo';
+$def['tab']['cuisine'] = 'Menù';
+$def['tab']['article'] = 'Blog';
+$def['tab']['contact'] = 'Contacts';
+$def['tab']['map'] = 'Map';
 
 return $def;

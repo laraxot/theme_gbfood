@@ -1,7 +1,5 @@
 <?php
 
-
-
 return [
     'sign_in' => 'Log in',
     'member_login' => 'Reserved Area',

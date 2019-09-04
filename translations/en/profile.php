@@ -1,6 +1,5 @@
 <?php
 
-
 $def = [
     'show' => [
         'my_restaurant' => 'My Restaurants',
@@ -16,7 +15,6 @@ $def = [
     'answer1' => 'By joining the foodtribu community you will be able to search for the best take-away restaurants closer to where you order. Order quickly even through a chatbot to those restaurants that have activated it.',
     'question2' => 'What can I ask at the chatbot?',
     'answer2' => 'You can ask for the service hours of the various restaurants, expected delivery times, current promotions, browse the menu and browse restaurants for those with special food requirements.',
-
     ],
     'edit' => [
         'prvPrivacy' => 'Management of Data Processing Authorizations',
@@ -166,16 +164,16 @@ $def['create'] = [
     'answer2' => 'The basic service is free forever there is a premium chatbot service reserved for restaurant owners with a monthly fee',
 ];
 
-$def['restaurant']=include(__DIR__.'/restaurant.php');
+$def['restaurant'] = include __DIR__.'/restaurant.php';
 
-$def['create']['field']=$def['create'];
-$def['edit']['field']=$def['create'];
-$def['edit']['submit']='Sign in';
-$def['tab']['content']='Info';
-$def['tab']['restaurant']='Suggested Restaurants';
+$def['create']['field'] = $def['create'];
+$def['edit']['field'] = $def['create'];
+$def['edit']['submit'] = 'Sign in';
+$def['tab']['content'] = 'Info';
+$def['tab']['restaurant'] = 'Suggested Restaurants';
 
-$def['create']['prvPrivacy']='Privacy';
-$def['create']['mandatoryPrivacy']='* Mandatory selection';
+$def['create']['prvPrivacy'] = 'Privacy';
+$def['create']['mandatoryPrivacy'] = '* Mandatory selection';
 
 $def['create']['field']['passwd'] = 'Password';
 $def['create']['field']['passwd_placeholder'] = 'Password';
@@ -183,5 +181,6 @@ $def['create']['field']['passwd_help'] = 'your secret password';
 $def['create']['field']['passwd_confirmation'] = 'Repeat the password';
 $def['create']['field']['passwd_confirmation_placeholder'] = 'Repeat the password';
 $def['create']['field']['passwd_confirmation_help'] = 'repeat your secret password';
-$def['create']['submit']='Sign in';
+$def['create']['submit'] = 'Sign in';
+
 return $def;

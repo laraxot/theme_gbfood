@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 return [
-	'tab'=>[
-		'content'=>'info',
-		'restaurant'=>'ristoranti ',
-	]
+    'tab' => [
+        'content' => 'info',
+        'restaurant' => 'ristoranti ',
+    ],
 ];

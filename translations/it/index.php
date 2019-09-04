@@ -1,7 +1,5 @@
 <?php
 
-
-
 return [
      'steps' => [
          'location' => 'Scegli la località',

@@ -1,7 +1,5 @@
 <?php
 
-
-
 return [
      'steps' => [
          'location' => 'Elegir la ubicación',
@@ -43,10 +41,6 @@ return [
          'affiliato' => 'Convertirse en un AdvisorFood',
          'affiliato_1' => 'Forma parte de nuestro equipo.',
          'affiliato_2' => 'Preséntenos a los restaurantes de su ciudad y gane dinero para todos los afiliados.',
-
-
-
-
 
          'registrati' => 'Registro',
      ],

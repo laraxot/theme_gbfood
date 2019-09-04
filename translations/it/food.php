@@ -6,7 +6,6 @@ $def = [
         'accept_rules_text' => 'Testo informativa',
         'accept_rules' => 'Accetto i Termini e Condizioni del servizio',
     ],
-
 ];
 
 return $def;

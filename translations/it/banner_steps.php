@@ -1,7 +1,5 @@
 <?php
 
-
-
 return [
     'location' => 'Scegli la località',
     'order_food' => 'Ordina ciò che preferisci',
