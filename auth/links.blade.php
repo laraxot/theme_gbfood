@@ -26,7 +26,7 @@
     </li>
      
     <li class="nav-item">
-        <a href="{{ route('register') }}" class="nav-link" title="register" >
+        <a href="{{ route('container0.create',['lang'=>$lang,'container0'=>'profile']) }}" class="nav-link" title="register" >
             <i class="fa fa-edit"></i>&nbsp;@lang('pub_theme::auth.sign_up')
         </a>
     </li>
