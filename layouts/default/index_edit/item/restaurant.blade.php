@@ -1,14 +1,17 @@
+@php
+	$row_panel=Panel::get($row);
+@endphp
 <div class="bg-gray restaurant-entry">
 	<div class="row">
 		<div class="col-sm-12 col-md-12 col-lg-8 text-xs-center text-sm-left">
 			<div class="entry-logo">
-				<a class="img-fluid" href="{{ $row->url }}">
-					{!! $row->image_html(['width'=>100,'height'=>100]) !!}
+				<a class="img-fluid" href="{{ $row_panel->url() }}">
+					{!! $row_panel->imageHtml(['width'=>100,'height'=>100]) !!}
 				</a>
 			</div>
 			<!-- end:Logo -->
 			<div class="entry-dscr">
-				<h5><a href="{{ $row->url }}">{{ $row->title }}</a></h5>
+				<h5><a href="{{ $row_panel->url() }}">{{ $row->title }}</a></h5>
 				<span>{{ $row->subtitle }} </span>
 				<br/>
 				<i class="fa fa-cutlery" aria-hidden="true"></i>
