@@ -51,3 +51,8 @@
 .bg-image{
   background-color: #131925;
 }
+
+.btn-giada{
+  border-radius: 0px 25px 0px 25px; 
+  box-shadow: -2px 2px 2px 2px #0000008a;
+}
