@@ -6,12 +6,12 @@
 			<div class="entry-logo">
 				<a class="img-fluid" href="#">
 				{{--  <img src="http://placehold.it/110x110" alt="Food logo"> --}}
-				{!! Panel::get($row)->imageHtml(['width'=>110,'height'=>110]) !!}
+				{!! $row->image_html(['width'=>110,'height'=>110]) !!}
 				{{--
 				<img itemprop="image" src="{{ $row->image_src }}">
 				--}}
 				</a>
-			</div> 
+			</div>
 			{{-- end:Logo --}}
 			<div class="entry-dscr">
 				<h5>

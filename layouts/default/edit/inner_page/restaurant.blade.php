@@ -20,6 +20,9 @@ $bg.='.jpg';
 				<div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 profile-img">
 					<div class="image-wrap">
 						<figure>
+							{{--
+							{!! $row->image_html(['width'=>240,'height'=>140]) !!}
+							--}}
 							{!! Form::bsOpen($row,'update') !!}
 							{!! Form::bsInPlaceHtml5UploadImg('image_src') !!}
 							{!! Form::close() !!}

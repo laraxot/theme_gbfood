@@ -1,13 +1,10 @@
-@php
-	$row_panel=Panel::get($row);
-@endphp
 <div class="food-item {{ $key%2?'white':'' }}">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-lg-8">
 			@if($row->image_src!="")
 			<div class="rest-logo pull-left">
 				<a class="restaurant-logo pull-left" href="{{-- $row->url --}}">
-					{!! $row_panel->imageHtml(['width'=>100,'height'=>80]) !!}
+					{!! $row->image_html(['width'=>100,'height'=>80]) !!}
 				</a>
 			</div>
 			<div class="rest-descr">
