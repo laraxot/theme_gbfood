@@ -12,10 +12,11 @@
 	$parz['lang']=\App::getLocale();
 	if(\Auth::check()){
 		$parz['container0']='restaurant';
+		$url=route('container0.create',$parz);
 	}else{
-		$parz['container0']='restaurant_owner';
+		//$parz['container0']='profile';
+		$url=route('login.notice',$parz);
 	}
-	$url=route('container0.create',$parz);
 @endphp
 
 @if($showRegistration)

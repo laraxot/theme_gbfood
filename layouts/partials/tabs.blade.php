@@ -1,3 +1,6 @@
+@php
+	//ddd($tabs);
+@endphp
 <div class="menu-rest">
 	@foreach($tabs as $tabs_level)
 	<ul class="nav nav-pills mb-3 nav-justified" id="pills-tab" role="tablist">

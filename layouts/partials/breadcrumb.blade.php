@@ -1,3 +1,6 @@
+@php
+	$k=0;
+@endphp
 <div class="breadcrumb">
 	<div class="container">
 		<ul itemscope itemtype="http://schema.org/BreadcrumbList">
