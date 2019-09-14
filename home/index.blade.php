@@ -2,8 +2,6 @@
 @section('content')
 	@include('theme::includes.flash')
 	@include($view.'.banner')
-	<example-component></example-component>
-	<star-rating></star-rating>
 	{{-- //components non serve piu
 	
 	@include($view.'.location_match')
@@ -16,10 +14,3 @@
     {{--@include($view.'.featured_restaurants')--}}
 
 @endsection
-@push('scripts')
-<script>
-	$( document ).ready(function () {
-		//swal.fire('Hello world!');
-	});
-</script>
-@endpush
