@@ -17,7 +17,7 @@
 
 				</form>
 					--}}
-				{{ Form::bsFormSearchAddress(['action'=>asset($lang.'/map'),'input_name'=>'address','fields'=>['lat','lng']])   }}
+				{!! Form::bsFormSearchAddress(['action'=>asset($lang.'/map'),'input_name'=>'address','fields'=>['lat','lng']]) !!}
 				
 			</div>
             {{--

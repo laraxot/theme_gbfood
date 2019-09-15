@@ -6,7 +6,9 @@
 	@include($view.'.location_match')
 	--}}
 	{{--@include($view.'.popular')--}}
+	[---]
 	@include($view.'.banner')
+	[---]
 	{{--
     --}}
 	@include($view.'.what_we_do')
