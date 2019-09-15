@@ -11,9 +11,13 @@
 			<h5 class="font-white space-xs">@lang($view.'.home')</h5>
 			--}}
 			<div class="banner-form">
+					{{--
 				<form class="form" method="GET" action="{{ asset($lang.'/restaurant_map') }}" id="addressform">
 					{{ Form::bsSearchAddress('address',null,['only'=>['locality','lat','lng']]) }}
+
 				</form>
+					--}}
+				{{ Form::bsFormSearchAddress(['action'=>asset($lang.'/map'),'input_name'=>'address','fields'=>['lat','lng']])   }}
 				
 			</div>
             {{--
