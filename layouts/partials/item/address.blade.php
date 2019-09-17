@@ -16,4 +16,5 @@
     @if(isset($linkd->country_short))
         <meta itemprop="addressCountry" content="{{ $linked->country_short}}"/>
     @endif
+    <a href="{{ route('container0.index',['lang'=>$lang,'container0'=>'map']) }}#{{$linked->latitude}},{{$linked->longitude}},14z" class="btn btn-secondary">view on map</a>
 </div>

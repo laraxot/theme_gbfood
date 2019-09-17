@@ -3074,4 +3074,43 @@ $def = [
 $def['field'] = $def['edit']['field'];
 $def['privacies']['title'] = 'Privacy';
 
+$def['field']['user']=[
+        'first_name' => 'Nome',
+        'first_name_placeholder' => 'Es. Mario',
+        'first_name_help' => 'il tuo nome di battesimo',
+        'last_name' => 'Cognome',
+        'last_name_placeholder' => 'Es. Rossi',
+        'last_name_help' => 'il tuo cognome di battesimo',
+        'surname' => 'Cognome',
+        'surname_placeholder' => 'Es. Rossi',
+        'surname_help' => 'il tuo cognome di battesimo',
+        'handle' => 'Username',
+        'handle_placeholder' => 'Es. Mario72',
+        'handle_help' => 'il nome che userai per entrare nell\' applicativo',
+        'bio' => '2 frasi su di te',
+        'bio_placeholder' => 'la passione della cucina e\' nata ..',
+        'bio_help' => 'una tua breve descrizione',
+        'password' => 'Password',
+        'password_placeholder' => 'Password',
+        'password_help' => 'la tua segretissima password',
+        'password_confirmation' => 'Ripeti Password',
+        'password_confirmation_placeholder' => 'Ripeti Password',
+        'password_confirmation_help' => 'ripeti la tua segretissima password',
+        'passwd' => 'Password',
+        'passwd_placeholder' => 'Password',
+        'passwd_help' => 'la tua segretissima password',
+        'passwd_confirmation' => 'Ripeti Password',
+        'passwd_confirmation_placeholder' => 'Ripeti Password',
+        'passwd_confirmation_help' => 'ripeti la tua segretissima password',
+        'email' => 'E-mail',
+        'email_help' => 'Es. info@example.com',
+        'email_placeholder' => 'info@example.com',
+];
+
+$def['field']['post']=[
+    'txt'=>'bio',
+    'txt_placeholder'=>'2 righe su di te..',
+    'txt_help'=>'2 righe su di te..',
+];
+
 return $def;
