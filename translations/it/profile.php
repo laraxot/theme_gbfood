@@ -3113,4 +3113,34 @@ $def['field']['post']=[
     'txt_help'=>'2 righe su di te..',
 ];
 
+$def['restaurant']['field']=[
+            'title' => 'Nome Ristorante',
+            'title_alert' => 'Nome del ristorante obbligatorio',
+            'title_help' => 'Es. Ristorante da Gino',
+            'title_placeholder' => 'Ristorante da Gino',
+            'risto_privacy' => 'vuoi essere aggiornato sulla privacy ?',
+            'risto_privacy_help' => 'devi essere in regola con la privacy',
+            'accept_rules' => 'Dichiaro di aver letto ed accettato lo policy del sito',
+            'accept_rules_help' => 'Per iscrivere il tuo ristorante devi accettare le nostre regole',
+            'subtitle' => 'Motto',
+            'subtitle_help' => 'Es. Ordina il tuo piatto preferito a casa tua da ...',
+            'subtitle_alert' => 'Motto obbligatorio',
+            'subtitle_placeholder' => 'la buona pizza',
+            'email' => 'E-mail',
+            'email_help' => 'Es. info@example.com',
+            'email_placeholder' => 'info@example.com',
+            'phone' => 'Numero Telefono del vs. Locale',
+            'phone_help' => 'Numero visualizzato del vs. locale per essere contattati',
+            'phone_placeholder' => 'XXX XXXXXX',
+            'website' => 'Sito internet',
+            'website_help' => 'Se hai un sito inseriscilo es. http://www.pizzagino.it',
+            'website_placeholder' => 'http://www.example.com',
+            'txt' => 'Descrizione',
+            'txt_help' => 'scrivi una bella recensione della tua attività',
+            'txt_placeholder' => 'La recensione non è obbligatoria, ma migliora la qualità della pagina dedicata al vostro Ristorante',
+            'txt_alert' => 'Recensione obbligatoria',
+            'rules-doc' => 'Per poter iscrivere il Vostro Ristorante è necessario accettare le nostre regole di accettazione del servizio',
+            'rules-doc_help' => 'Si prega di leggere attentamente le regole del sito prima di accettare',
+];
+
 return $def;
