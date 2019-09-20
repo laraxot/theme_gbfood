@@ -5,3 +5,4 @@ src/_menuxml/admin/_menufull\.xml
 logs
 *.lock
 /node_modules
+v8-compile-cache-0
