@@ -6,7 +6,7 @@
 			<div class="entry-logo">
 				<a class="img-fluid" href="#">
 				{{--  <img src="http://placehold.it/110x110" alt="Food logo"> --}}
-				{!! $row->image_html(['width'=>110,'height'=>110]) !!}
+				{!! Panel::get($row)->image_html(['width'=>110,'height'=>110]) !!}
 				{{--
 				<img itemprop="image" src="{{ $row->image_src }}">
 				--}}
