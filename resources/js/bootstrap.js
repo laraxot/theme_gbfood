@@ -17,7 +17,7 @@ try {
 	const magnificPopup = window.magnificPopup = require('magnific-popup');
 	require('jquery.easing');
 	require('typeahead.js');
-
+	//const CookieLaw = window.CookieLaw = require('vue-bootstrap-cookie-law');
     require('bootstrap');
 } catch (e) {}
 

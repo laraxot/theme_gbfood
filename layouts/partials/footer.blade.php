@@ -63,6 +63,7 @@
 		</div>
 		<!-- bottom footer ends -->
 	</div>
+	<cookie-law></cookie-law>
 </footer>
 <!-- end:Footer -->
 

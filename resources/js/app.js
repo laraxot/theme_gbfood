@@ -7,6 +7,7 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+Vue.config.devtools = true;
 
 //https://github.com/laravel-frontend-presets/laravel-vuetify/blob/master/src/vuetify-stubs/resources/js/app.js
 
@@ -18,6 +19,11 @@ Vue.component('remember-password', require('./components/RememberPasswordCompone
 Vue.component('reset-password', require('./components/ResetPasswordComponent.vue'));
 Vue.component('snackbar', require('./components/SnackBarComponent.vue'));
 Vue.component('gravatar', require('./components/GravatarComponent.vue'));
+
+import CookieLaw from 'vue-bootstrap-cookie-law';
+Vue.component('cookie-law',CookieLaw);
+
+const CC = require( "CookieConsent" );
 
 window.Vuetify = require('vuetify');
 /*

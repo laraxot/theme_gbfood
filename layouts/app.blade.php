@@ -12,9 +12,9 @@
 	@if(isset($footer) && $footer=='off')
 	@else
 	{{-- // dopo rimetto il footer.. prima sistemo
-	@include('pub_theme::layouts.partials.footer') 
-	--}}
 	{!! Theme::cache('pub_theme::layouts.partials.footer',[]) !!}
+	--}}
+	@include('pub_theme::layouts.partials.footer') 
 	@endif
 	</div>
 </div>
