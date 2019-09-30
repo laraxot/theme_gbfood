@@ -50,29 +50,7 @@
 					{{--
 					@include('extend::layouts.partials.rating.objectives',['row'=>$restaurant_curr])
 					--}}
-
-					@if(is_array($row->tabs))
-							@foreach($row->tabs as $tab)
-									@php
-										$parz=[];
-										$parz['container0']='restaurant';
-										$parz['item0']=$row->guid;
-										$parz['container1']=$tab;
-									@endphp
-									<a href="{{ route('container0.container1.index',$parz,true) }}" class="btn theme-btn-dash">
-										@lang('pub_theme::restaurant.tab.'.$tab)
-									</a>
-							@endforeach
-							{{--
-							@php
-								//$parz=$params;
-								$parz['container1']='rating';
-								$url_t=route('container0.container1.index_edit',$parz);
-							@endphp
-							<button type="button" class="btn btn theme-btn-dash" data-toggle="modal" data-target="#myModalAjax" data-title="rate it" data-href="{{ $url_t }}">Vota</button>
-							--}}
-
-					@endif
+					@include('pub_theme::layouts.partials.tabs',['tabs'=>$row_panel->getItemTabs()])
 				</div>
 			</div>
 			<!-- end:right info -->
