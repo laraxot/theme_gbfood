@@ -5,7 +5,8 @@
 	@include('theme::includes.flash')
 		<div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out">
 	--}}
-	<div class="site-wrapper" id="app">
+	<div  id="app">
+	<div class="site-wrapper">
 		@include('pub_theme::layouts.partials.headernav')
 		@yield('content')
 	</div>
@@ -17,5 +18,4 @@
 	@include('pub_theme::layouts.partials.footer') 
 	@endif
 	</div>
-</div>
 @endsection
