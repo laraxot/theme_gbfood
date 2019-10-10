@@ -24,7 +24,10 @@
 @stack('scripts_before')
 @php
 	//<script src="{{ mix('dist/js/app.js','themes/foodpicky') }}"></script>
-	Theme::add('/theme/pub/dist/js/app.js',1);   
+	 
+	Theme::add('pub_theme::dist/js/manifest.js',1);
+	Theme::add('pub_theme::dist/js/vendor.js',2);
+	Theme::add('pub_theme::dist/js/app.js',3);	
 	//Theme::add('/theme/pub/js/jquery.min.js',1);
 	//Theme::add('/theme/bc/jquery/dist/jquery.min.js',1);
 	//Theme::add('/theme/pub/js/tether.min.js');

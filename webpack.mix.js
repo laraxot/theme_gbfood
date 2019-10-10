@@ -15,45 +15,52 @@ mix.webpackConfig(webpack => {
     };
 });
 */
-require('laravel-mix-polyfill');
- mix.options({
- 	purifyCss: false,
- });
 
- mix.autoload({
+//console.log(process.env);
+
+require('laravel-mix-polyfill');
+
+mix.options({
+  purifyCss: false,
+});
+
+mix.autoload({
     jquery: ['$', 'window.jQuery', 'jQuery'], // more than one
     tether: ['window.Tether', 'Tether'],
-	'tether-shepherd': ['Shepherd'],
-	'popper.js/dist/popper.js': ['Popper'],
-  	sweetalert2:['Swal'],
-  	'magnific-popup':['magnificPopup'],
+  'tether-shepherd': ['Shepherd'],
+  'popper.js/dist/popper.js': ['Popper'],
+    sweetalert2:['Swal'],
+    'magnific-popup':['magnificPopup'],
+    'multiselect-two-sides':['multiselect'],
     moment: 'moment' // only one
 });
 
+var src = 'resources'; 
 var dest = 'dist'; 
-//https://statamic.com/marketplace/addons/laravel-mix
-mix
-	.js('resources/js/app.js', dest+'/js')
-	.sass('resources/sass/app.scss', dest+'/css',{ outputStyle: 'expanded' });
- ;
-/*
-mix
-	.js('resources/js/map.js', dest+'/js')
-	.sass('resources/sass/map.scss', dest+'/css',{ outputStyle: 'expanded' });
- ;
-*/
+ 
+mix.js(src+'/js/auth.js', dest+'/js')
+  .sass(src+'/sass/auth.scss', dest+'/css',{ outputStyle: 'expanded' });
+  
+mix.js(src+'/js/app.js', dest+'/js')
+   .sass(src+'/sass/app.scss', dest+'/css',{ outputStyle: 'expanded' });
+
 mix.extract([
-   'jquery', //'raphael',
+   'jquery', 'raphael',
     //    'datatables.net', 'datatables.net-bs', 'datatables.net-responsive', 'datatables.net-responsive-bs',
    'vue', 'vuetify' ,'axios'
 ]);
 mix.version();
 
+var $prefix='../../../../';
+var $suffix='/themes/gbfood'
+var $resource_root=$prefix+$suffix;
+var $public_path=$prefix+process.env.MIX_PUBLIC_FOLDER+$suffix;
+
 console.log('MIX_PUBLIC_FOLDER');
 console.log(process.env.MIX_PUBLIC_FOLDER);
 
-mix.setResourceRoot('../../../../')
-	.setPublicPath('../../../../'+process.env.MIX_PUBLIC_FOLDER)
+mix.setResourceRoot($resource_root)
+  .setPublicPath($public_path)
   //.setPublicPath(url('/'))
   //.webpackConfig(Object.assign(webpack))
   //.sourceMaps()
@@ -63,4 +70,3 @@ mix.setResourceRoot('../../../../')
       targets: {"firefox": "50", "ie": 11}
    })
  ;
-

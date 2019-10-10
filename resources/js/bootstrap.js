@@ -9,7 +9,6 @@ window._ = require('lodash');
 try {
     window.Popper = require('popper.js').default;
     window.$ = window.jQuery = require('jquery');
-    
     const Swal = window.Swal = require('sweetalert2');
 	const flatpickr = window.flatpickr = require("flatpickr");
 	const it = require("flatpickr/dist/l10n/it.js").default.it;

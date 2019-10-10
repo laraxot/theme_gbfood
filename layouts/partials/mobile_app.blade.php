@@ -5,7 +5,7 @@
 				<div class="container">
                     <div class="row">
 					<div class="col-4 right-image text-center">
-						<figure> <img src="{{url('/themes/foodpicky/images/app.png')}}" alt="Right Image" class="img-fluid"> </figure>
+						<figure> <img src="{{Theme::asset('pub_theme::images/app.png')}}" alt="Right Image" class="img-fluid"> </figure>
 					</div>
 					<div class="col-8 left-text">
 						<h3>@lang($view.'.mobileapp.best_app')</h3>

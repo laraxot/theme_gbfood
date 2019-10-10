@@ -1,5 +1,6 @@
 <!-- start: FOOTER -->
 <footer class="footer">
+	<cookie-law></cookie-law>
 	<div class="container">
 		<!-- top footer statrs -->
 		<div class="row top-footer">
