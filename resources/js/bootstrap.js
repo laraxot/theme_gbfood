@@ -18,20 +18,11 @@ try {
 	require('typeahead.js');
 	//const CookieLaw = window.CookieLaw = require('vue-bootstrap-cookie-law');
     require('bootstrap');
-} catch (e) {}
+} catch (e) {
+	console.log(e);
+}
 
-/*
-var pub_res='.';
-//
-require(pub_res+'/leaflet.permalink.min.js');
-require(pub_res+'/leaflet.extra-markers.min.js');
-require(pub_res+'/leaflet.markercluster.js');
-require(pub_res+'/leaflet-sidebar.js');
-require(pub_res+'/L.Control.Locate.min.js');
-require(pub_res+'/opening_hours+deps.min.js');
-require(pub_res+'/popupcontent.js');
-require(pub_res+'/direktvermarkter.js');
-*/
+
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
