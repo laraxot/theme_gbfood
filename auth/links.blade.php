@@ -4,7 +4,13 @@
 @if(\Auth::check())
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" title="Welcome {{\Auth::user()->handle}}" href="#" data-effect="mfp-move-from-top" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-user"></i>@lang('lu::headernav.welcome') {{\Auth::user()->handle}}!
+            <span class="fa-stack">
+                <span class="fa fa-square-o fa-stack-2x"></span>
+                <strong class="fa-stack-1x">{{ $user->perm_type }}</strong>
+            </span>
+            <i class="fa fa-user"></i>
+
+            @lang('lu::headernav.welcome') {{\Auth::user()->handle}}!
         </a>
         <ul class="dropdown-menu">
             <li><a href="{{ \Auth::user()->url }}" class="dropdown-item" title="profile">Profile</a></li>

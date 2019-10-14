@@ -14,7 +14,7 @@
 				<i class="fa fa-cutlery" aria-hidden="true"></i>
 				
 				<br/>
-				@include('extend::layouts.partials.address',['row'=>$row->address])
+				@include('theme::layouts.partials.address',['row'=>$row->address])
 				{{--
 				@include('pub_theme::layouts.partials.item.address',['linked'=>$row->linked])
 				<ul class="list-inline">

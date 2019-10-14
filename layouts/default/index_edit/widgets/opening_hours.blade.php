@@ -3,14 +3,29 @@
 		<h3 class="widget-title text-dark">
 			@lang($view.'.opening_hours')
 		</h3>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalAjax" data-title="@lang($view.'.opening_hours')" 
+                            data-href="{{ $create_url }}">
+                            <i class="fa fa-plus"></i>
+        </button>
+
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalAjax" data-title="@lang($view.'.opening_hours')" 
+                            data-href="{{ $edit_url }}">
+                            <i class="fa fa-wrench"></i>
+        </button>
+
+
 		<div class="clearfix"></div>
 	</div>
 	@php
 		$dayOfWeek= \Carbon\Carbon::now()->dayOfWeek;
 		$daynames=['sun','mon','tue','wed','thu','fri','sat'];
+		//ddd(get_class($openingHours));
 	@endphp
+		
 	<div class="widget-body">
+		{{--
 		@includeFirst([$_layout->view.'.item.add.opening_hours',$_layout->view_default.'.item.add.opening_hours'])
+		--}}
 		<table class="table">
 		{{--	
 		<ul class="list-unstyled opening-hours">
@@ -26,11 +41,12 @@
 				@if($hour->is_closed)	
 					<span style="color:red">closed</span>
 				@else
-					{{$hour->open_at->format('H:i')}} - {{$hour->close_at->format('H:i')}}
+					{{ $hour->open_at }} - {{ $hour->close_at }}
 				@endif
 				{{-- $hour->destroy_url --}}
 				@php
-					//ddd($hour->pivot);
+					//ddd($hour->linkable);
+					//ddd(Panel::get($hour)->destroyUrl());
 				/*
 					$parz=$params;
 					$parz['container1']='opening_hour';
@@ -40,7 +56,7 @@
 				*/
 				@endphp
 				
-				{!! Form::bsBtnDelete(['row'=>$hour]) !!}
+				{{ Form::bsBtnDelete(['row'=>$hour]) }}
 				
 			@endforeach
 			</span></td>
@@ -55,7 +71,7 @@
 		</table>
 		@foreach($openingHours as $hour)
 		@if(!$hour->is_closed)	
-		<meta itemprop="openingHours" content="{{ substr($hour->day_name, 0,2) }} {{$hour->open_at->format('H:i')}}-{{$hour->close_at->format('H:i')}}"/>
+		<meta itemprop="openingHours" content="{{ substr($hour->day_name, 0,2) }} {{ $hour->open_at }}-{{ $hour->close_at }}"/>
 		@endif
 		@endforeach
 	</div>

@@ -48,7 +48,7 @@
 				<div class="right-review">
 					@include('theme::layouts.partials.rating.avg',['row'=>$restaurant_curr])
 					{{--
-					@include('extend::layouts.partials.rating.objectives',['row'=>$restaurant_curr])
+					@include('theme::layouts.partials.rating.objectives',['row'=>$restaurant_curr])
 					--}}
 					@include('pub_theme::layouts.partials.tabs',['tabs'=>$row_panel->getItemTabs()])
 				</div>

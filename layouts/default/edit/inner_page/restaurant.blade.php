@@ -21,9 +21,13 @@
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 profile-desc"
                      style="background-color: black;opacity: 0.6;filter: alpha(opacity=50);">
                     <div class="pull-right" style="float:right;">
-                        <a href="" class="btn btn-primary" >
+                        
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalAjax" data-title="{{ $row->title }}" 
+                            data-href="{{ $restaurant_panel->editUrl() }}">
                             <i class="fa fa-wrench"></i>
-                        </a>
+                        </button>
+
+
                     </div>
                     <div class="pull-left right-text white-txt">
                         <h6><a href="{{ $restaurant_curr->url }}">{{ $restaurant_curr->title }}</a></h6>

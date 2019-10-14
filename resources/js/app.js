@@ -23,6 +23,11 @@ const app = new Vue({
 var pub_res='.';
 //require('../../../../resources/js');
 require(pub_res+'/lighbox.js'); //magnificPopup is not a function
+//require(pub_res+'/modal_ajax.js');
+var piece='/..';
+
+//require(__dirname+piece.repeat(6)+'/Modules/FormX/Resources/views/js/modal_ajax.js');
+
 require(pub_res+'/modal_ajax.js');
 require(pub_res+'/btnDeleteX2.js');
 require(pub_res+'/flatpickr.js');

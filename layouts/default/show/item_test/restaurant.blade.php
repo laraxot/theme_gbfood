@@ -33,7 +33,7 @@
 				<a href="{{ $row->url }}" class="btn theme-btn-dash pull-right">Read</a> 
 			</div>
 			--}}
-			@include('extend::layouts.partials.rating.objectives',['row'=>$row])
+			@include('theme::layouts.partials.rating.objectives',['row'=>$row])
 			<h5>@lang('pub_theme::restaurant.provider.links')</h5>
 			@foreach($row->providers as $provider)
 				<a href="{{ url('/redirect?url='.$provider->url) }}" rel="nofollow" >{{ $provider->provider }}</a> 
