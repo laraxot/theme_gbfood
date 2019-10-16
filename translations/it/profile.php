@@ -3143,4 +3143,9 @@ $def['restaurant']['field']=[
             'rules-doc_help' => 'Si prega di leggere attentamente le regole del sito prima di accettare',
 ];
 
+$def['restaurant']['field']['sort']=[
+    'by_placeholder'=>' ',
+    'order_placeholder'=>' ',
+];
+
 return $def;

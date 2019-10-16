@@ -1197,4 +1197,8 @@ $def['field']['post']=[
 ];
 
 $def['rules_txt']='Gentile Ristoratore, di seguito potrai compilare alcuni form, in cui ti chiederemo alcuni dati e informazioni sulla tua attività, questi dati faranno parte di una pagina pubblica che sarà visibile agli utenti della community di Foodtribù, tra i quali ci potranno essere i tuoi soliti clienti e di nuovi, che potranno usufruire degli innovativi servizi di prenotazione d\'asporto del portale. I dati che pubblicheremo saranno trattati in ottemperanza ai    nostri Termini e Condizioni  e alla nostra Policy Privacy  Conforme al d.lgs. 101/2018 di adeguamento al GDPR Reg. UE n. 679/2016';
+
+$def['my_rating']['myRatings']['title']='che aspetti ?! Vota !';
+
+
 return $def;
