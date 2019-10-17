@@ -21,6 +21,8 @@ mix.autoload({
 mix.js('resources/js/app.js', 'dist/js')
     .sass('resources/sass/app.scss', 'dist/css');
 
+mix.setResourceRoot('../');
+mix.setPublicPath('dist'); 
 
 mix.extract(['vue','jquery']);
 

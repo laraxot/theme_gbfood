@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["/dist/js/app"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["/js/app"],{
 
 /***/ "./node_modules/axios/index.js":
 /*!*************************************!*\
@@ -79697,10 +79697,10 @@ $(window).focus(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\var\public_html\multi\laravel\resources\views\themes\gbfood\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\var\public_html\multi\laravel\resources\views\themes\gbfood\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\var\www\multi\laravel\resources\views\themes\gbfood\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\var\www\multi\laravel\resources\views\themes\gbfood\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
 
-},[[0,"/dist/js/manifest","/dist/js/vendor"]]]);
+},[[0,"/js/manifest","/js/vendor"]]]);
