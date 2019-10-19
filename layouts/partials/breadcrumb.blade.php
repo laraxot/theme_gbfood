@@ -3,57 +3,12 @@
 @endphp
 <div class="breadcrumb">
 	<div class="container">
-
-
-{{--
-	<ul itemscope itemtype="http://schema.org/BreadcrumbList">
-			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="{{ asset(App::getLocale()) }}">
-					<span itemprop="name">Home</span>
-				</a>
-				 <meta itemprop="position" content="1" />
-			</li>
-			@foreach(array_values($params) as $k=>$v)
-        		@if(isset($v->title))
-        			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-						<a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="{{ $v->url }}">
-							<span itemprop="name">{{ ($v->title!=''?$v->title:$v->guid) }}</span>
-						</a>
-				 		<meta itemprop="position" content="{{ $k+2 }}" />
-					</li>
-				@else
-					@php
-    				$container=Theme::xotModel($v);
-    				@endphp
-    				@if(is_object($container))
-    				<li >
-    					<a href="{{ $container->index_url }}">{{ Str::plural($v) }}</a>
-    				</li>
-    				@endif
-        		@endif
-        	@endforeach
-        	@php
-        		$routename=Route::currentRouteName();
-        		$route_arr=explode('.',$routename);
-        		$last_route=last($route_arr);
-        	@endphp
-        	@if(!in_array($last_route,['index','show']) || true)
-        		<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-					<a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="{{ url()->current() }}">
-						<span itemprop="name">@lang('pub_theme::txt.'.$last_route)</span>
-					</a>
-			 		<meta itemprop="position" content="{{ $k+1 }}" />
-				</li>
-        	@endif
-		</ul>
---}}
-
 		<ul>
 			<li>
 				<a href="{{ asset(App::getLocale()) }}">Home</a>
 			</li>
 			@foreach(array_values($params) as $k=>$v)
-        @if(isset($v->title))
+        @if(is_object($v))
         	<li>
 						<a href="{{ $v->url }}">{{ ($v->title!=''?$v->title:$v->guid) }}</a>
 					</li>
@@ -103,7 +58,7 @@
 	},
 
 	@foreach(array_values($params) as $k=>$v)
-		@if(isset($v->title))
+		@if(is_object($v))
 		{
 		 "@type": "ListItem",
 			"position": {{ $k+1 }},
