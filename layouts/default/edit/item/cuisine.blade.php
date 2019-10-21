@@ -16,7 +16,7 @@
 			{{--
 			@include($view.'.item.recipe')
 			--}}
-			@include($_layout->view_default.'.item.cuisine_x_recipe',['key'=>$key,'row'=>$recipe])
+			@include($_layout->view_default.'.item.cuisine_x_recipe',['key'=>$key,'row'=>$recipe,'cuisine'=>$row])
 		@endforeach
 	</div>
 </div>

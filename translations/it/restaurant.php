@@ -1200,5 +1200,13 @@ $def['rules_txt']='Gentile Ristoratore, di seguito potrai compilare alcuni form,
 
 $def['my_rating']['myRatings']['title']='che aspetti ?! Vota !';
 
+$def['cuisine']['choose_cuisine']='Tipologia Pietanza';
+$def['opening_hour']['field']['post_type']='relazione ';
+$def['opening_hour']['field']['post_type_placeholder']='  ';
+$def['opening_hour']['field']['open_at']='Apre alle';
+$def['opening_hour']['field']['close_at']='Apre alle';
+$def['opening_hour']['field']['day_of_week']='Giorno';
+$def['opening_hour']['field']['day_of_week_placeholder']='giorno della settimana';
 
 return $def;
+
