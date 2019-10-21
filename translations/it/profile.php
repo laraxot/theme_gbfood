@@ -3148,4 +3148,7 @@ $def['restaurant']['field']['sort']=[
     'order_placeholder'=>' ',
 ];
 
+$def['restaurant']=array_merge($def['restaurant'],include(__DIR__.'/restaurant.php'));
+
+
 return $def;

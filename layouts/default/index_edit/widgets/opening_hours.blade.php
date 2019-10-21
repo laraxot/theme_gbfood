@@ -4,11 +4,6 @@
 			@lang($view.'.opening_hours')
 		</h3>
 		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalAjax" data-title="@lang($view.'.opening_hours')" 
-                            data-href="{{ $create_url }}">
-                            <i class="fa fa-plus"></i>
-        </button>
-
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalAjax" data-title="@lang($view.'.opening_hours')" 
                             data-href="{{ $edit_url }}">
                             <i class="fa fa-wrench"></i>
         </button>
