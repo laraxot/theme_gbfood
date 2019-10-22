@@ -34,7 +34,7 @@ mix.polyfill({
 
 
 var $prefix='../../../../';
-var $suffix='/themes/gbfood'
+var $suffix='/themes/gbfood';
 var $resource_root=$prefix+$suffix;
 var $public_path=$prefix+process.env.MIX_PUBLIC_FOLDER+$suffix;
 
