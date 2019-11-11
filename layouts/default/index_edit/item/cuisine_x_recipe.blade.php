@@ -9,7 +9,8 @@
 		<div class="col-xs-12 col-sm-12 col-lg-7">
 			<b>{!! $row->title !!}</b>
 			<p>{!! $row->subtitle !!}
-			{!! $recipe_panel->btn('destroy') !!}
+				{{--
+			--}}
 			</p>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-lg-5 pull-right item-cart-info">
@@ -17,16 +18,20 @@
 			<span class="price pull-left">€ {{ number_format($row->pivot->price,2) }}</span>
 			--}}
 			<span class="price pull-left">€ {!! number_format($row->pivot['price'],2)  !!} </span>
-			<a href="#" class="btn btn-small btn btn-secondary pull-right" data-toggle="modal" data-target="#order-modal{{ $row->post_id }}">&#43;</a>
+
 
 			{{--
+			<a href="#" class="btn btn-small btn btn-secondary pull-right" data-toggle="modal" data-target="#order-modal{{ $row->post_id }}">&#43;</a>
 			{!! Form::bsBtnEdit(['row'=>$row]) !!}
 
 
 			{!! Form::bsBtnDetach(['row'=>$row]) !!}
 			--}}
-
+			{!! $recipe_panel->btn('edit') !!}
+			{!! $recipe_panel->btn('destroy') !!}
+			{{--
 			{!! Form::bsBtnDelete(['row'=>$row, 'class'=> 'pull-right']) !!}
+			--}}
 		</div>
 	</div>
 	{!! Form::close() !!}

@@ -8,9 +8,9 @@
 				<a href="{{ asset(App::getLocale()) }}">Home</a>
 			</li>
 			@foreach(array_values($params) as $k=>$v)
-        @if(is_object($v))
-        	<li>
-						<a href="{{ $v->url }}">{{ ($v->title!=''?$v->title:$v->guid) }}</a>
+        		@if(is_object($v))
+        			<li>
+						<a href="{{ Panel::get($v)->url() }}">{{ ($v->title!=''?$v->title:$v->guid) }}</a>
 					</li>
 				@else
 					@php
@@ -18,23 +18,22 @@
     				@endphp
     				@if(is_object($container))
     				<li>
-    					<a href="{{ $container->index_url }}">{{ Str::plural($v) }}</a>
+    					<a href="{{ Panel::get($container)->indexUrl() }}">{{ Str::plural($v) }}</a>
     				</li>
     				@endif
-      	@endif
-      @endforeach
-      @php
-      	$routename=Route::currentRouteName();
-      	$route_arr=explode('.',$routename);
-      	$last_route=last($route_arr);
-      @endphp
-      @if(!in_array($last_route,['index','show']) || true)
-      	<li>
+      			@endif
+      		@endforeach
+      		@php
+      			$routename=Route::currentRouteName();
+      			$route_arr=explode('.',$routename);
+      			$last_route=last($route_arr);
+      		@endphp
+      		@if(!in_array($last_route,['index','show']) || true)
+      			<li>
 					<a href="{{ url()->current() }}">@lang('pub_theme::txt.'.$last_route)</a>
 				</li>
-      @endif
+      		@endif
 		</ul>
-
 	</div>
 	{{--
 	@include('pub_theme::layouts.partials.forms.search')
