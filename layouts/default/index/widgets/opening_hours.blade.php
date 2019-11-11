@@ -18,7 +18,7 @@
 				@if($hour->is_closed)
 					<span style="color:red">closed</span>
 				@else
-					{{$hour->open_at->format('H:i')}} - {{$hour->close_at->format('H:i')}}
+					{{substr($hour->open_at,0,-3)}} - {{substr($hour->close_at,0,-3)}}
 				@endif
 			@endforeach
 			</span>
@@ -26,7 +26,7 @@
 		@endfor
 		@foreach($openingHours as $hour)
 		@if(!$hour->is_closed)
-		<meta itemprop="openingHours" content="{{ substr($hour->day_name, 0,2) }} {{$hour->open_at->format('H:i')}}-{{$hour->close_at->format('H:i')}}"/>
+		<meta itemprop="openingHours" content="{{ substr($hour->day_name, 0,2) }} {{substr($hour->open_at,0,-3)}}-{{substr($hour->close_at,0,-3)}}"/>
 		@endif
 		@endforeach
 		</ul>

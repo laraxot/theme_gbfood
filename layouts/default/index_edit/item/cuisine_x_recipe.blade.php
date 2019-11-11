@@ -27,8 +27,10 @@
 
 			{!! Form::bsBtnDetach(['row'=>$row]) !!}
 			--}}
-			{!! $recipe_panel->btn('edit') !!}
+			<div class="btn-group btn-group-sm" role="group" aria-label="actions">
+			{!! $recipe_panel->btn('edit',['modal'=>1]) !!}
 			{!! $recipe_panel->btn('destroy') !!}
+			</div>
 			{{--
 			{!! Form::bsBtnDelete(['row'=>$row, 'class'=> 'pull-right']) !!}
 			--}}
