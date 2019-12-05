@@ -1156,15 +1156,15 @@ $def['cuisine']['opening_hours']['title'] = 'Orario di Apertura';
 $def['cuisine']['choose_cat']['title'] = 'Tipologia Piatti';
 
 $def['tab']['ingredient'] = 'ingredienti variazione';
-$def['field']['website']='Sito internet';
-$def['field']['website_help']= 'Se hai un sito inseriscilo es. http://www.pizzagino.it';
-$def['field']['website_placeholder']= 'http://www.example.com';
-$def['field']=$def;
-$def['field']['address']='Indirizzo del Locale';
-$def['field']['restaurant_accept_rules']='Per poter iscrivere il Vostro Ristorante è necessario accettare le nostre regole di accettazione del servizio';
-$def['field']['restaurant_accept_rules_help']='Si prega di leggere attentamente le regole del sito prima di accettare';
+$def['field']['website'] = 'Sito internet';
+$def['field']['website_help'] = 'Se hai un sito inseriscilo es. http://www.pizzagino.it';
+$def['field']['website_placeholder'] = 'http://www.example.com';
+$def['field'] = $def;
+$def['field']['address'] = 'Indirizzo del Locale';
+$def['field']['restaurant_accept_rules'] = 'Per poter iscrivere il Vostro Ristorante è necessario accettare le nostre regole di accettazione del servizio';
+$def['field']['restaurant_accept_rules_help'] = 'Si prega di leggere attentamente le regole del sito prima di accettare';
 
-$def['field']['post']=[
+$def['field']['post'] = [
                 'title' => 'Nome Ristorante',
     'title_alert' => 'Nome del ristorante obbligatorio',
     'title_help' => 'Es. Ristorante da Gino',
@@ -1192,21 +1192,20 @@ $def['field']['post']=[
     'txt_alert' => 'Recensione obbligatoria',
     'rules-doc' => 'Per poter iscrivere il Vostro Ristorante è necessario accettare le nostre regole di accettazione del servizio',
     'rules-doc_help' => 'Si prega di leggere attentamente le regole del sito prima di accettare',
-    'image_src'=>' ',
-    'image_src_placeholder'=>' ',
+    'image_src' => ' ',
+    'image_src_placeholder' => ' ',
 ];
 
-$def['rules_txt']='Gentile Ristoratore, di seguito potrai compilare alcuni form, in cui ti chiederemo alcuni dati e informazioni sulla tua attività, questi dati faranno parte di una pagina pubblica che sarà visibile agli utenti della community di Foodtribù, tra i quali ci potranno essere i tuoi soliti clienti e di nuovi, che potranno usufruire degli innovativi servizi di prenotazione d\'asporto del portale. I dati che pubblicheremo saranno trattati in ottemperanza ai    nostri Termini e Condizioni  e alla nostra Policy Privacy  Conforme al d.lgs. 101/2018 di adeguamento al GDPR Reg. UE n. 679/2016';
+$def['rules_txt'] = 'Gentile Ristoratore, di seguito potrai compilare alcuni form, in cui ti chiederemo alcuni dati e informazioni sulla tua attività, questi dati faranno parte di una pagina pubblica che sarà visibile agli utenti della community di Foodtribù, tra i quali ci potranno essere i tuoi soliti clienti e di nuovi, che potranno usufruire degli innovativi servizi di prenotazione d\'asporto del portale. I dati che pubblicheremo saranno trattati in ottemperanza ai    nostri Termini e Condizioni  e alla nostra Policy Privacy  Conforme al d.lgs. 101/2018 di adeguamento al GDPR Reg. UE n. 679/2016';
 
-$def['my_rating']['myRatings']['title']='che aspetti ?! Vota !';
+$def['my_rating']['myRatings']['title'] = 'che aspetti ?! Vota !';
 
-$def['cuisine']['choose_cuisine']='Tipologia Pietanza';
-$def['opening_hour']['field']['post_type']='relazione ';
-$def['opening_hour']['field']['post_type_placeholder']='  ';
-$def['opening_hour']['field']['open_at']='Apre alle';
-$def['opening_hour']['field']['close_at']='Apre alle';
-$def['opening_hour']['field']['day_of_week']='Giorno';
-$def['opening_hour']['field']['day_of_week_placeholder']='giorno della settimana';
+$def['cuisine']['choose_cuisine'] = 'Tipologia Pietanza';
+$def['opening_hour']['field']['post_type'] = 'relazione ';
+$def['opening_hour']['field']['post_type_placeholder'] = '  ';
+$def['opening_hour']['field']['open_at'] = 'Apre alle';
+$def['opening_hour']['field']['close_at'] = 'Apre alle';
+$def['opening_hour']['field']['day_of_week'] = 'Giorno';
+$def['opening_hour']['field']['day_of_week_placeholder'] = 'giorno della settimana';
 
 return $def;
-

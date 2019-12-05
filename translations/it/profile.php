@@ -3074,7 +3074,7 @@ $def = [
 $def['field'] = $def['edit']['field'];
 $def['privacies']['title'] = 'Privacy';
 
-$def['field']['user']=[
+$def['field']['user'] = [
         'first_name' => 'Nome',
         'first_name_placeholder' => 'Es. Mario',
         'first_name_help' => 'il tuo nome di battesimo',
@@ -3107,13 +3107,13 @@ $def['field']['user']=[
         'email_placeholder' => 'info@example.com',
 ];
 
-$def['field']['post']=[
-    'txt'=>'bio',
-    'txt_placeholder'=>'2 righe su di te..',
-    'txt_help'=>'2 righe su di te..',
+$def['field']['post'] = [
+    'txt' => 'bio',
+    'txt_placeholder' => '2 righe su di te..',
+    'txt_help' => '2 righe su di te..',
 ];
 
-$def['restaurant']['field']=[
+$def['restaurant']['field'] = [
             'title' => 'Nome Ristorante',
             'title_alert' => 'Nome del ristorante obbligatorio',
             'title_help' => 'Es. Ristorante da Gino',
@@ -3143,12 +3143,11 @@ $def['restaurant']['field']=[
             'rules-doc_help' => 'Si prega di leggere attentamente le regole del sito prima di accettare',
 ];
 
-$def['restaurant']['field']['sort']=[
-    'by_placeholder'=>' ',
-    'order_placeholder'=>' ',
+$def['restaurant']['field']['sort'] = [
+    'by_placeholder' => ' ',
+    'order_placeholder' => ' ',
 ];
 
-$def['restaurant']=array_merge($def['restaurant'],include(__DIR__.'/restaurant.php'));
-
+$def['restaurant'] = array_merge($def['restaurant'], include(__DIR__.'/restaurant.php'));
 
 return $def;
