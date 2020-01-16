@@ -4,6 +4,9 @@
 		$field->help=trans($view.'.field.'.$name.'_help');
 	}
 @endphp
+
+<div class="col-sm-{{ $field->col_bs_size}}">
+
 <div class="form-group{{ $errors->has($name) ? ' has-error' : '' }}">
 	{{ $label }}
 	{{ $input }}
@@ -12,5 +15,8 @@
         	{{ $errors->first($name_dot) }}
 		</div>
 	@endif
+	@if($field->help!='')
 	<small class="form-text text-muted">{{ $field->help }}</small>
+	@endif
+</div>
 </div>
