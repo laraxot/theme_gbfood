@@ -28,7 +28,7 @@ var piece='/..';
 
 //require(__dirname+piece.repeat(6)+'/Modules/FormX/Resources/views/js/modal_ajax.js');
 
-require(pub_res+'/modal_ajax.js');
+//require(pub_res+'/modal_ajax.js');  // under developing 
 require(pub_res+'/btnDeleteX2.js');
 require(pub_res+'/flatpickr.js');
 require(pub_res+'/typeahead_js.js');

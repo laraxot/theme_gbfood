@@ -2,6 +2,10 @@
    $user=\Auth::user();
 @endphp
 @if(\Auth::check())
+@php
+   $profile=\Auth::user()->profile;
+   $profile_panel=Panel::get($profile);
+@endphp
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" title="Welcome {{\Auth::user()->handle}}" href="#" data-effect="mfp-move-from-top" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
             <span class="fa-stack">
@@ -13,7 +17,7 @@
             @lang('lu::headernav.welcome') {{\Auth::user()->handle}}!
         </a>
         <ul class="dropdown-menu">
-            <li><a href="{{ \Auth::user()->url }}" class="dropdown-item" title="profile">Profile</a></li>
+            <li><a href="{{ $profile_panel->showUrl() }}" class="dropdown-item" title="profile">Profile</a></li>
             <li><a href="{{ route('logout') }}" class="dropdown-item" title="logout"
                 onclick="event.preventDefault();
                      document.getElementById('logout-form').submit();">
