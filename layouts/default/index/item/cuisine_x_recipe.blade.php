@@ -10,7 +10,7 @@
 			@if($row->image_src!="")
 			<div class="rest-logo pull-left">
 				<a class="restaurant-logo pull-left" href="{{-- $row->url --}}">
-					{!! $row->image_html(['width'=>100,'height'=>80]) !!}
+					{!! $recipe_panel->imageHtml(['width'=>100,'height'=>80]) !!}
 				</a>
 			</div>
 			<div class="rest-descr">
