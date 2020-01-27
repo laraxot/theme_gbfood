@@ -1,3 +1,9 @@
+@php
+	$restaurant=collect($params)->where('post_type','restaurant')->last();
+	$restaurant_panel=Panel::get($restaurant);
+	$cuisine_panel=Panel::get($row);
+	$cuisine_panel->setParent($restaurant_panel);
+@endphp
 <div class="menu-widget m-b-30" id="{{ $row->post_id }}">
 	<div class="widget-heading">
 		<h3 class="widget-title text-dark">
@@ -12,8 +18,8 @@
 	</div>
 	<div class="collapse show" id="m{{ $row->post_id }}">
 		@foreach($row->recipes as $key=>$recipe)
-			@include($_layout->view_default.'.item.cuisine_x_recipe',['key'=>$key,'row'=>$recipe,'cuisine'=>$row])
+			@include($_layout->view_default.'.item.cuisine_x_recipe',['key'=>$key,'row'=>$recipe,'cuisine'=>$row,'cuisine_panel'=>$cuisine_panel])
 		@endforeach
 	</div>
 </div>
-@include($_layout->view_default.'.modal.cuisine_x_ingredient_cat',['cuisine'=>$row])
+@include($_layout->view_default.'.modal.cuisine_x_ingredient_cat',['cuisine'=>$row,'cuisine_panel'=>$cuisine_panel])

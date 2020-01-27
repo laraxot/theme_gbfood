@@ -1,10 +1,8 @@
 @php
 	$parz=$params;
-	$parz['item1']=$cuisine;
-	$parz['container2']=$row->type;
-	$parz['item2']=$row->post->guid;
-	$parz['container3']='ingredient_cat';
-	$route=route('container0.container1.container2.container3.index',$parz);
+	$recipe_panel=Panel::get($row);
+	$recipe_panel->setParent($cuisine_panel);
+	$route=$recipe_panel->relatedUrlRecursive(['act'=>'index','related_name'=>'ingredient_cat']);
 @endphp
 <div class="food-item {{ $key%2?'white':'' }}">
 	<div class="row">
@@ -31,6 +29,7 @@
 			--}}
 			<button type="button" class="btn btn-secondary pull-right" data-toggle="modal" data-target="#myModalAjax" data-title="{{ $row->title }}" data-href="{{ $route }}">
 				<i class="fa fa-plus" aria-hidden="true"></i>
+
 			</button>
 
 		</div>
