@@ -4,7 +4,7 @@
 			<div class="entry-logo">
 				<a class="img-fluid" href="{{ $row->url }}">
 					{{--
-					{!! $row->image_html(['width'=>100,'height'=>100]) !!}
+					{!! Panel::get($row)->imageHtml(['width'=>100,'height'=>100]) !!}
 					--}}
 				</a>
 			</div>
