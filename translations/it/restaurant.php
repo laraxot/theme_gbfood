@@ -1165,7 +1165,7 @@ $def['field']['restaurant_accept_rules'] = 'Per poter iscrivere il Vostro Ristor
 $def['field']['restaurant_accept_rules_help'] = 'Si prega di leggere attentamente le regole del sito prima di accettare';
 
 $def['field']['post'] = [
-                'title' => 'Nome Ristorante',
+    'title' => 'Nome Ristorante',
     'title_alert' => 'Nome del ristorante obbligatorio',
     'title_help' => 'Es. Ristorante da Gino',
     'title_placeholder' => 'Ristorante da Gino',

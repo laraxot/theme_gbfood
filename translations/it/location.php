@@ -1,23 +1,23 @@
 <?php
 
 return [
-  'restaurant' => [
-    'index' => [
-      'page_heading' => 'pub_theme::location.restaurant.index.page_heading',
-      'tab' => [
-        'cuisine' => 'Menù',
-        'photo' => 'Foto',
-        'article' => 'Blog',
-      ],
+    'restaurant' => [
+        'index' => [
+            'page_heading' => 'pub_theme::location.restaurant.index.page_heading',
+            'tab' => [
+                'cuisine' => 'Menù',
+                'photo' => 'Foto',
+                'article' => 'Blog',
+            ],
+        ],
+        'tab' => [
+            'cuisine' => 'Menù',
+            'photo' => 'pub_theme::location.restaurant.tab.photo',
+            'article' => 'pub_theme::location.restaurant.tab.article',
+        ],
     ],
     'tab' => [
-      'cuisine' => 'Menù',
-      'photo' => 'pub_theme::location.restaurant.tab.photo',
-      'article' => 'pub_theme::location.restaurant.tab.article',
+        'cuisine_cat' => 'Cucine del Luogo',
+        'restaurant' => 'Ristoranti del Luogo',
     ],
-  ],
-  'tab' => [
-    'cuisine_cat' => 'Cucine del Luogo',
-    'restaurant' => 'Ristoranti del Luogo',
-  ],
 ];

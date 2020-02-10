@@ -20,7 +20,7 @@ return [
     'request_new_password' => 'Recuperar contraseña',
 
     'ajax_login' => [
-      'sign_in' => 'Acceder',
+        'sign_in' => 'Acceder',
         'member_login' => 'Área reservada',
         'member_login_subtitle' => 'Bienvenido de nuevo, amigo. Inicia sesión para empezar', //'Welcome back, friend. Login to get started
         'not_member_yet' => 'aún no registrado',
@@ -29,7 +29,7 @@ return [
     ],
 
     'ajax_register' => [
-      'sign_up' => 'Registro',
+        'sign_up' => 'Registro',
         'member_register' => 'Área reservada',
         'member_register_subtitle' => 'Listo para obtener las mejores ofertas? ¡Empecemos!',            //'Ready to get best offers? Let's get started!
         'repeat_password' => 'repite la contraseña',
