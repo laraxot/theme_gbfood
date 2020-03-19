@@ -29,12 +29,19 @@
         </ul>
     </li>
 @else
+    {{--
+        <li class="nav-item">
+            <a href="{{ route('login') }}" class="ajax-popup-link nav-link" id="js-login" title="login">
+                <i class="fa fa-sign-in"></i>&nbsp;@lang('pub_theme::auth.sign_in')
+            </a>
+        </li>
+    --}}
     <li class="nav-item">
-        <a href="{{ route('login') }}" class="ajax-popup-link nav-link" id="js-login" title="login">
+        <a href="{{ route('login') }}" class="nav-link" data-toggle="modal" data-target="#vueModal" data-title="login" data-href="{{ route('login') }}">
             <i class="fa fa-sign-in"></i>&nbsp;@lang('pub_theme::auth.sign_in')
         </a>
     </li>
-     
+
     <li class="nav-item">
         <a href="{{ route('container0.create',['lang'=>$lang,'container0'=>'profile']) }}" class="nav-link" title="register" >
             <i class="fa fa-edit"></i>&nbsp;@lang('pub_theme::auth.sign_up')

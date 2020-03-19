@@ -13,11 +13,13 @@ try {
 	const flatpickr = window.flatpickr = require("flatpickr");
 	const it = require("flatpickr/dist/l10n/it.js").default.it;
 	require('bootstrap');
-	const magnificPopup = window.magnificPopup = require('magnific-popup');
+	//const magnificPopup = window.magnificPopup = require('magnific-popup');
 	require('jquery.easing');
 	require('typeahead.js');
 	//const CookieLaw = window.CookieLaw = require('vue-bootstrap-cookie-law');
     require('bootstrap');
+    require("jquery.rateit");
+    window.cookieconsent=require("cookieconsent");
 } catch (e) {
 	console.log(e);
 }

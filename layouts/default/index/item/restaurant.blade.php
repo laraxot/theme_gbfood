@@ -46,8 +46,10 @@
 		<div class="col-sm-12 col-md-12 col-lg-4 text-xs-center">
 			<div class="right-content bg-white">
 				<div class="right-review">
-					@include('theme::layouts.partials.rating.avg',['row'=>$restaurant_curr])
-					{{--
+                    {!! $row_panel->btnItemAction('rate') !!}
+
+                    {{--
+                    @include('theme::layouts.partials.rating.avg',['row'=>$restaurant_curr])
 					@include('theme::layouts.partials.rating.objectives',['row'=>$restaurant_curr])
 					--}}
 					@include('pub_theme::layouts.partials.tabs',['tabs'=>$row_panel->getItemTabs()])

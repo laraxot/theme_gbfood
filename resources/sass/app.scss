@@ -11,9 +11,9 @@
 @import '~bootstrap/scss/bootstrap-grid';
 
 // font awesome
-@import "~@fortawesome/fontawesome-free/scss/fontawesome"; 
-@import "~@fortawesome/fontawesome-free/scss/regular"; 
-@import "~@fortawesome/fontawesome-free/scss/solid"; 
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 @import "~@fortawesome/fontawesome-free/scss/v4-shims";
 //--glyphicons-halflings
@@ -27,9 +27,11 @@
 // calendar
 @import "~flatpickr/dist/flatpickr.min.css";
 
-//flag 
+//flag
 @import "~flag-icon-css/sass/flag-icon";
 
+//Rate It
+@import '~jquery.rateit/scripts/rateit.css';
 
 //theme style
 @import '../css/style.css';
