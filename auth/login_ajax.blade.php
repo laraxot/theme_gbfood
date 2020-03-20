@@ -7,9 +7,12 @@
         $providers=['facebook','twitter','google'];
         @endphp
         @foreach($providers as $provider)
-        <a href="{{ route('login.provider',['provider'=>$provider]) }}" class="btn btn-primary btn-lg" title="{{ $provider }}">
-        <i class="fab fa-{{ $provider }}"></i>
-        </a>
+        @php
+        $provider_url=route('login.provider',['provider'=>$provider]);
+    @endphp
+    <a href="{{ $provider_url }}" class="btn btn-primary btn-lg" title="{{ $provider }}" onclick="location.href='{{ $provider_url}}'">
+    <i class="fab fa-{{ $provider }}"></i>
+    </a>
         @endforeach
     </div>
     <hr/>
