@@ -15,7 +15,7 @@
 		--}}
     </ul>
     {{--
+        --}}
         @include('pub_theme::iubenda.cookie_policy')
         @include('pub_theme::iubenda.privacy_policy')
-        --}}
 </div>

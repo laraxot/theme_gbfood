@@ -5,10 +5,12 @@
 	@include('theme::includes.flash')
 		<div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out">
 	--}}
-	<div  id="app">
-	<div class="site-wrapper">
+
+	<div class="site-wrapper" id="app">
 		@include('pub_theme::layouts.partials.headernav')
-		@yield('content')
+        @yield('content')
+        <bs-modal message="test"></bs-modal>
+        <bs-iframe-modal message="test"></bs-iframe-modal>
 	</div>
 	@if(isset($footer) && $footer=='off')
 	@else
@@ -17,7 +19,8 @@
 	--}}
 	@include('pub_theme::layouts.partials.footer')
     @endif
-    <bs-modal message="test"></bs-modal>
-    <bs-iframe-modal message="test"></bs-iframe-modal>
-	</div>
+
+
 @endsection
+
+

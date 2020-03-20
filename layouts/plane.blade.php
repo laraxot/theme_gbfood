@@ -8,5 +8,11 @@
 @section('scripts')
 	@include('pub_theme::layouts.partials.scripts')
 @show
+
+@php
+xdebug_print_function_stack();
+echo '<hr/><hr/><hr/><hr/><hr/><hr/>';
+@endphp
+
 </body>
 </html>
