@@ -3076,6 +3076,7 @@ $def['privacies']['title'] = 'Privacy';
 
 $def['field']['user'] = [
     'first_name' => 'Nome',
+    'first_name_label' => 'Nome',
     'first_name_placeholder' => 'Es. Mario',
     'first_name_help' => 'il tuo nome di battesimo',
     'last_name' => 'Cognome',
@@ -3185,4 +3186,12 @@ $def['field']['user'] = [
 
 $def['privacies']['title'] = 'Privacy';
 
+$def['field']['user']['first_name_label']='Nome';
+$def['field']['user']['last_name_label']='Cognome';
+$def['field']['user']['handle_label']='Username/Nickname';
+$def['field']['user']['email_label']='Email';
+$def['field']['user']['passwd_label']='Password';
+$def['field']['user']['passwd_confirmation_label']='Ripeti Password';
+$def['field']['user']['txt_label']='scrivi una bella recensione';
+$def['field']['post']['txt_label']='scrivi una bella recensione';
 return $def;

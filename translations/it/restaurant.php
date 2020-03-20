@@ -1208,4 +1208,37 @@ $def['opening_hour']['field']['close_at'] = 'Apre alle';
 $def['opening_hour']['field']['day_of_week'] = 'Giorno';
 $def['opening_hour']['field']['day_of_week_placeholder'] = 'giorno della settimana';
 
+$def['field']['post']['title_label']='Nome Ristorante';
+$def['field']['post']['subtitle_label']='Motto Ristorante';
+$def['field']['post']['image_src_label']='Foto/Logo Ristorante';
+$def['field']['website_label']='Website';
+$def['field']['email_label']='Website';
+$def['field']['phone_label']='Telefono';
+$def['field']['post']['txt_label']='Descrizione / Recensione Attività ..';
+$def['field']['address_label']='indirizzo attività';
+$def['field']['post']['restaurant_accept_rules_label']='Regolamento';
+$def['field']['myRatings']['pivot']['rating_help']=' ';
+
+$def['cuisine']['field']['post']['title_label']='Tipologia Pietanza';
+$def['cuisine']['field']['post']['title_placeholder']='Antipasti';
+$def['cuisine']['field']['post']['title_help']='es. Antipasti, Primi .. ';
+
+$def['cuisine']['field']['post']['subtitle_label']='info su Tipologia Pietanza';
+$def['cuisine']['field']['post']['subtitle_placeholder']=' ';
+$def['cuisine']['field']['post']['subtitle_help']='(facoltativa)';
+
+$def['cuisine']['recipe']['field']['post']['title_label']='Pietanza';
+$def['cuisine']['recipe']['field']['post']['title_placeholder']=' ';
+$def['cuisine']['recipe']['field']['post']['title_help']='es. Pizza Margherita';
+
+$def['cuisine']['recipe']['field']['post']['subtitle_label']='Info Pietanza';
+$def['cuisine']['recipe']['field']['post']['subtitle_placeholder']=' ';
+$def['cuisine']['recipe']['field']['post']['subtitle_help']='(facoltativa) es. slow food / piatto vegano';
+
+$def['cuisine']['recipe']['field']['field']['price_label']='Prezzo';
+$def['cuisine']['recipe']['field']['field']['price_placeholder']=' ';
+$def['cuisine']['recipe']['field']['field']['price_help']='es. 2.50 ';
+
+
+
 return $def;

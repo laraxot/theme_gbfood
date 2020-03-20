@@ -2,9 +2,11 @@
     $restaurant_curr=collect($params)->where('post_type','restaurant')->last();
     if($restaurant_curr==null) return;
     $cuisineCats = $restaurant_curr->cuisineCats;
+    /*
     $ratings=$restaurant_curr->ratings;
     $rating_avg=$ratings->avg('rating');
     $rating_count=$ratings->count();
+    */
     $restaurant_panel=Panel::get($restaurant_curr);
 @endphp
 <section class="inner-page-hero bg-image" data-image-src="{{ Theme::asset('theme/pub/images/restaurant-bg.jpg') }}">
@@ -22,14 +24,15 @@
                      style="background-color: black;opacity: 0.6;filter: alpha(opacity=50);">
                     <div class="pull-left right-text white-txt">
                         <h6><a href="{{ $restaurant_curr->url }}">{{ $restaurant_curr->title }}</a></h6>
-                        {{--  
+                        {{--
                         <p>{{ $restaurant_curr->index_edit_url }}</p>
-                        <a class="btn btn-small btn-green">Open</a> 
+                        <a class="btn btn-small btn-green">Open</a>
                         --}}
                         <p>{{ $restaurant_curr->subtitle }} </p>
                         <a href="tel:{{ $restaurant_curr->phone }}" class="btn btn-green"><i class="fa fa-phone"></i>{{ $restaurant_curr->phone }}</a>
-                        @include('theme::layouts.partials.rating.avg',['row'=>$restaurant_curr])
+                        {!! $restaurant_panel->btnItemAction('rate') !!}
                         {{--
+                        @include('theme::layouts.partials.rating.avg',['row'=>$restaurant_curr])
                         <p>{{ $restaurant_curr->txt }}</p>
                         --}}
                         {{--
@@ -44,12 +47,12 @@
                         --}}
                         {{--
                         <ul class="nav nav-inline">
-                            
+
                             <li class="nav-item"> <a class="nav-link active" href="#"><i class="fa fa-check"></i> Min $ 10,00</a> </li>
                             <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-motorcycle"></i> 30 min</a> </li>
-                            
+
                             <li class="nav-item ratings">
-                                
+
                                 <a class="nav-link" href="#">
                                     <span>
                                         @for($i=1;$i<=$rating_avg;$i++)
@@ -63,7 +66,7 @@
                                 </a>
 
                             </li>
-                            
+
                         </ul>
                         --}}
                     </div>
