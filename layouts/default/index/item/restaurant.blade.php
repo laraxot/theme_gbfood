@@ -1,8 +1,8 @@
 @php
 	$restaurant_curr=$row;
 	$cuisineCats=$restaurant_curr->cuisineCats;
-	$rating_avg=$restaurant_curr->ratings->avg('rating');
-    $rating_count=$restaurant_curr->ratings->count();
+	//$rating_avg=$restaurant_curr->ratings->avg('rating');
+    //$rating_count=$restaurant_curr->ratings->count();
     $row_panel=Panel::get($row);
 @endphp
 <div class="bg-gray restaurant-entry">
