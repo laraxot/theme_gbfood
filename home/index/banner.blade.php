@@ -11,7 +11,13 @@
 			<h5 class="font-white space-xs">@lang($view.'.home')</h5>
 			--}}
 			<div class="banner-form">
-				{!! Form::bsFormSearchAddress(['action'=>asset($lang.'/map'),'input_name'=>'address','fields'=>['lat','lng']]) !!}
+				{!! Form::bsFormSearchAddress(
+                    [
+                        'action'=>asset($lang.'/map'),
+                        'input_name'=>'address',
+                        'fields'=>['lat','lng'],
+                    ]
+                ) !!}
 			</div>
             {{--
 			@include($view.'.banner.steps')
