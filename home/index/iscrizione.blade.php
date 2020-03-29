@@ -16,7 +16,7 @@
 						@lang($view.'.iscrizione.ristorante_2')</span>
 					</div>
 					<p>&nbsp;</p>
-					<a itemprop="url" href="{{ Panel::get($restaurant)->createUrl() }}" title="registrazione ristorante" target="_self" data-hover-background-color="white" data-hover-border-color="white" data-hover-color="black" class="btn btn-danger btn-round btn-lg" style="color: white; border-radius: 25px 0px 25px 0px; box-shadow: 2px 2px 2px 2px #0000008a;">@lang($view.'.iscrizione.registrati')</a>
+					<a itemprop="url" href="{{-- Panel::get($restaurant)->createUrl() --}}" title="registrazione ristorante" target="_self" data-hover-background-color="white" data-hover-border-color="white" data-hover-color="black" class="btn btn-danger btn-round btn-lg" style="color: white; border-radius: 25px 0px 25px 0px; box-shadow: 2px 2px 2px 2px #0000008a;">@lang($view.'.iscrizione.registrati')</a>
 				</div>
 				<div class="vc_empty_space" style="height: 250px">
 					<span class="vc_empty_space_inner">
