@@ -12,7 +12,8 @@
 	@include($view.'.what_we_do')
 	@include($view.'.how_it_works')
 	@include('pub_theme::layouts.partials.mobile_app')
+    {{--
     @include($view.'.iscrizione')
-    {{--@include($view.'.featured_restaurants')--}}
+        @include($view.'.featured_restaurants')--}}
 
 @endsection

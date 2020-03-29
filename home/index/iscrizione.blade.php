@@ -1,7 +1,7 @@
 <!-- iscrizione ristorante o utente-->
 @php
-	$restaurant=Theme::xotModel('restaurant');
-	$profile=Theme::xotModel('profile');
+	$restaurant=Theme::xotModel('restaurant')->get();
+	$profile=Theme::xotModel('profile')->get();
 @endphp
 <section class="iscrizione">
 	<div class="container-fluid bg-3 text-center">
