@@ -58,7 +58,7 @@ $def = [
     'contact_us' => 'Contattaci',
 ];
 
-$def['index'] = include __DIR__.'/index.php';
+//$def['index'] = include __DIR__.'/index.php';
 $def['index']['field'] = [
     'address_placeholder' => 'Via, Civico, Città, Provincia',
 ];
