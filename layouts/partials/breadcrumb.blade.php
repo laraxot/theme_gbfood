@@ -1,5 +1,5 @@
 @php
-
+    return ;
 @endphp
 <div class="breadcrumb">
 	<div class="container">
