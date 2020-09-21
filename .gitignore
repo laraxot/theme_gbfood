@@ -1,0 +1,9 @@
+src/_menuxml/admin/_menufull\.xml
+/.git-ftp-ignore
+/.git
+/logs
+logs
+*.lock
+/node_modules
+v8-compile-cache-0
+*.log
