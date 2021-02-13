@@ -1,0 +1,29 @@
+https://medium.com/@Oriechinedu/how-to-add-jquery-ui-plugin-to-a-laravel-app-using-laravel-mix-e85bf0244fc1
+
+https://www.npmjs.com/package/vue-bootstrap-datetimepicker
+https://jsfiddle.net/ankurk91/01407frf/
+
+https://codeburst.io/simple-to-do-application-with-laravel-and-vue-4af28cb007ad
+
+https://vuejsexamples.com/
+
+https://codesandbox.io/s/mpklq49wp
+
+
+
+https://github.com/nkoehring/vuedt    /2 years
+
+
+
+https://github.com/ankurk91/vue-flatpickr-component   !!!!
+
+https://github.com/ridewn/vue-date-picker
+
+https://jsbin.com/bepikonube/2/edit?html,js,output
+
+//---------------------------------------------------------------------
+https://vuejsdevelopers.com/2017/05/20/vue-js-safely-jquery-plugin/
+
+
+//--- completo nuovo ?
+http://docs.laraspace.in/vue.html
