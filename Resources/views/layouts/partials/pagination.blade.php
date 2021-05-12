@@ -13,7 +13,7 @@
                 <span aria-hidden="true">&laquo;</span> <span class="sr-only">Previous</span>
             </a>
         </li>
-    @endif
+    @endif 
     {{-- Pagination Elements --}}
     @foreach ($elements as $element)
         {{-- "Three Dots" Separator --}}
