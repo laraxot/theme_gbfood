@@ -27,7 +27,7 @@
     "bootstrap-sass": "^3.4.1",
     "bootstrap-social": "^5.1.1",
     "bootstrap-vue": "^2.2.2",
-    "browserslist": "^4.8.5",
+    "browserslist": "^4.16.5",
     "chart.js": "2.8.0",
     "cssesc": "^3.0.0",
     "datatables.net-bs4": "1.10.19",
