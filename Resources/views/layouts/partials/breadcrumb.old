@@ -18,7 +18,7 @@
     				@endphp
     				@if(is_object($container))
     				<li>
-    					<a href="{{ Panel::get($container)->indexUrl() }}">{{ Str::plural($v) }}</a>
+    					<a href="{{ Panel::get($container)->url(['act'=>'index']) }}">{{ Str::plural($v) }}</a>
     				</li>
     				@endif
       			@endif
