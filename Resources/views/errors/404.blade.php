@@ -8,7 +8,7 @@
             <p>
                 We could not find the page you were looking for.
                 Meanwhile, you may <a href="">return to dashboard</a> or try using the search form.
-                {{ $msg or "" }}
+                {{ $msg ?? '' }}
             </p>
         </div>
     </div>
