@@ -15,7 +15,7 @@
 		$url=route('container0.create',$parz);
 	}else{
 		//$parz['container0']='profile';
-		$url=route('login.notice',$parz);
+		$url=route('login',$parz);
 	}
 @endphp
 
