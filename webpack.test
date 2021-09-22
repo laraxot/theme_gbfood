@@ -52,7 +52,7 @@ mix.extract([
 mix.version();
 
 var $prefix='../../../../';
-var $suffix='/themes/gbfood'
+var $suffix='/themes/GbFood'
 var $resource_root=$prefix+$suffix;
 var $public_path=$prefix+process.env.MIX_PUBLIC_FOLDER+$suffix;
 
