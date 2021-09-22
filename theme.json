@@ -1,0 +1,11 @@
+{
+    "name": "SbAdmin2Bs4",
+    "type": "adm",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
