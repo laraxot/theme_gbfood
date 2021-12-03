@@ -9,7 +9,7 @@
 	<br>
 	<div class="palate-foo">
 		@if(!isset($params['container1']))
-		<a href="{{ route('container0.show',$params) }}" class="btn theme-btn" >
+		<a href="{{ route('containers.show',$params) }}" class="btn theme-btn" >
 		@lang($trad_default.'.view_page')<i class="fa fa-show"></i>
 		</a>
 		@else
@@ -21,7 +21,7 @@
 		<span>You will find much more options</span>
 		--}}
 		@include('pub_theme::layouts.partials.btns.translate_manager')
-		
+
 	</div>
 </div>
 {{ Theme::add('theme/pub/js/color-settings.js') }}
