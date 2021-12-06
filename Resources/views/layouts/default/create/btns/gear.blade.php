@@ -1,5 +1,4 @@
-{{--
-@can('show',$row)
+{{-- @can('show', $row)
 <div class="color-palate">
 	<div class="color-trigger">
 		<i class="fa fa-gear"></i>
@@ -9,12 +8,12 @@
 	</div>
 	<br>
 	<div class="palate-foo">
-		@if(!isset($params['container1']))
+		@if (!isset($params['container1']))
 		<a href="{{ route('containers.show',$params) }}" class="btn theme-btn" >
 		@lang($trad_default.'.view_page')<i class="fa fa-show"></i>
 		</a>
 		@else
-		<a href="{{ route('container0.container1.show',$params) }}" class="btn theme-btn" >
+		<a href="{{ route('containers.show',$params) }}" class="btn theme-btn" >
 		@lang($trad_default.'.view_page')<i class="fa fa-show"></i>
 		</a>
 		@endif
@@ -39,5 +38,4 @@
 	</div>
 </div>
 {{ Theme::add('theme/pub/js/color-settings.js') }}
-{{ Theme::add('theme/pub/css/color-switcher-design.css') }}
---}}
+{{ Theme::add('theme/pub/css/color-switcher-design.css') }} --}}

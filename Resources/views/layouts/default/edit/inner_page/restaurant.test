@@ -1,4 +1,4 @@
-@php	
+@php
 
 $cuisineCats=$row->cuisineCats;
 if($cuisineCats->count()==0){
@@ -16,7 +16,7 @@ $bg.='.jpg';
 	<div class="profile">
 		<div class="container">
 			<div class="row"  >
-				
+
 				<div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 profile-img">
 					<div class="image-wrap">
 						<figure>
@@ -42,7 +42,7 @@ $bg.='.jpg';
 						{{--
 						--}}
 						<br style="clear:both" />
-						
+
 
 						{{--  <a class="btn btn-small btn-green">Open</a> --}}
 						{!! Form::bsInPlaceText('subtitle') !!}
@@ -56,14 +56,14 @@ $bg.='.jpg';
 							<li class="nav-item"> <a class="nav-link active" href="#"><i class="fa fa-check"></i> Min $ 10,00</a> </li>
 							<li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-motorcycle"></i> 30 min</a> </li>
 							<li class="nav-item ratings">
-								<a class="nav-link" href="#"> 
+								<a class="nav-link" href="#">
 								<span>
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star-o"></i>
-								</span> 
+								</span>
 								</a>
 							</li>
 						</ul>
@@ -71,21 +71,21 @@ $bg.='.jpg';
 					</div>
 
 
-				
+
 					{!! Form::close() !!}
 
 					<div class="font-white">
 						<i class="fa fa-cutlery" aria-hidden="true"></i>
 						@foreach($cuisineCats as $cuisineCat)
 						<span itemprop="servesCuisine" class="font-white">{{ $cuisineCat->title }}</span>
-						
+
 						{!! Form::bsBtnDetach(['row'=>$cuisineCat]) !!}
-						
+
 						@if(count($cuisineCats)>1),@endif
 						@endforeach
 						@include($_layout->view_default.'.item.add.cuisine_cat')
-						{{--  
-						<a href="{{ route('container0.container1.index',array_merge($params,['container1'=>'cuisineCat'])) }}">
+						{{--
+						<a href="{{ route('containers.index',array_merge($params,['container1'=>'cuisineCat'])) }}">
 							<i class="fa fa-wrench"></i>
 						</a>
 						--}}
@@ -94,7 +94,7 @@ $bg.='.jpg';
 						{!! Form::bsInPlaceAddress('formatted_address') !!}
 						{!! Form::close() !!}
 
-						
+
 					</div>
 				</div>
 			</div>
