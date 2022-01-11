@@ -23,7 +23,7 @@
                     <a class="nav-link" href="{{ url($lang) }}">Home <span
                             class="sr-only">(current)</span></a>
                 </li>
-                {{--  --}}
+
                 @include('pub_theme::auth.links')
                 @include('pub_theme::layouts.partials.headernav.lang.08')
                 @include('pub_theme::layouts.partials.headernav.add_restaurant')
