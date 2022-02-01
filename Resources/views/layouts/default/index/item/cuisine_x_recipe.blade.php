@@ -2,7 +2,7 @@
 $parz = $params;
 $recipe_panel = Panel::get($row);
 $recipe_panel->setParent($cuisine_panel);
-$route = $recipe_panel->relatedUrl(['act' => 'index', 'related_name' => 'ingredient_cat']);
+$route = $recipe_panel->relatedUrl('ingredient_cat', 'index');
 @endphp
 <div class="food-item {{ $key % 2 ? 'white' : '' }}">
     <div class="row">
