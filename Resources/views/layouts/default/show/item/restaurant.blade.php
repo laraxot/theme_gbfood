@@ -1,5 +1,5 @@
 @php
-	$panel_row=Panel::get($row);
+	$panel_row=Panel::make()->get($row);
 @endphp
 
 <script type="application/ld+json">

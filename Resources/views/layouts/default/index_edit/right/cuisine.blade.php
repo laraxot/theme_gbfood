@@ -2,7 +2,7 @@
 $restaurant_curr = collect($params)
     ->where('post_type', 'restaurant')
     ->last();
-$restaurant_panel = Panel::get($restaurant_curr);
+$restaurant_panel = Panel::make()->get($restaurant_curr);
 $openingHours = $restaurant_curr->openingHours;
 
 $opening_hour_edit_url = $restaurant_panel->relatedUrl('opening_hour', 'index_edit');

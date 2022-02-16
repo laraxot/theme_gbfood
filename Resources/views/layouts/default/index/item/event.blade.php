@@ -1,6 +1,6 @@
 @php
 	//$restaurant = $row->pivot->post->post;
-	$panel=Panel::get($row);
+	$panel=Panel::make()->get($row);
 @endphp
 <div vocab="http://schema.org/" typeof="Event">
 <div class="bg-gray restaurant-entry">

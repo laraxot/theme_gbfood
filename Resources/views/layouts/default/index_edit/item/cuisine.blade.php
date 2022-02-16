@@ -1,5 +1,5 @@
 @php
-$cuisine_panel = Panel::get($row);
+$cuisine_panel = Panel::make()->get($row);
 $edit_url = $cuisine_panel->relatedUrl('recipe', 'index_edit');
 @endphp
 

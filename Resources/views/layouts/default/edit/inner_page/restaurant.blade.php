@@ -9,7 +9,7 @@ $cuisineCats = $restaurant_curr->cuisineCats;
 $ratings = $restaurant_curr->ratings;
 $rating_avg = $ratings->avg('rating');
 $rating_count = $ratings->count();
-$restaurant_panel = Panel::get($restaurant_curr);
+$restaurant_panel = Panel::make()->get($restaurant_curr);
 @endphp
 <section class="inner-page-hero bg-image" data-image-src="{{ Theme::asset('theme/pub/images/restaurant-bg.jpg') }}">
     <div class="profile">

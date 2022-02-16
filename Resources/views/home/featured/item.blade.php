@@ -1,6 +1,6 @@
 @php
 	$cuisineCats=$row->cuisineCats;
-	$row_panel=Panel::get($row);
+	$row_panel=Panel::make()->get($row);
 @endphp
 <div class="col-xs-12 col-sm-12 col-md-6 single-restaurant {{ $cuisineCats->pluck('guid')->implode(' ') }}">
 	<div class="restaurant-wrap">

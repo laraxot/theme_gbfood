@@ -3,7 +3,7 @@
 	$cuisineCats=$restaurant_curr->cuisineCats;
 	//$rating_avg=$restaurant_curr->ratings->avg('rating');
     //$rating_count=$restaurant_curr->ratings->count();
-    $row_panel=Panel::get($row);
+    $row_panel=Panel::make()->get($row);
 @endphp
 <div class="bg-gray restaurant-entry">
 	<div class="row">

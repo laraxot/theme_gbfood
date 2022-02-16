@@ -13,7 +13,7 @@
     	@php
     		$url_lang='/'.$k;
     		if(isset($row) && is_object($row)){
-				$url_lang=Panel::get($row)->langUrl($k);
+				$url_lang=Panel::make()->get($row)->langUrl($k);
     		}
 
     	@endphp

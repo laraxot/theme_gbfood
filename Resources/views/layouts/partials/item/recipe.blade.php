@@ -4,7 +4,7 @@
 			@if($row->image_src!="")
 			<div class="rest-logo pull-left">
 				<a class="restaurant-logo pull-left" href="{{ $row->url }}">
-					{!! Panel::get($row)->imageHtml(['width'=>100,'height'=>80]) !!}
+					{!! Panel::make()->get($row)->imageHtml(['width'=>100,'height'=>80]) !!}
 				</a>
 			</div>
 			<div class="rest-descr">

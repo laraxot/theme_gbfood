@@ -9,7 +9,7 @@ return;
             </li>
             @foreach ($items as $item)
                 @php
-                    $panel = Panel::get($item);
+                    $panel = Panel::make()->get($item);
                 @endphp
                 <li>
                     <a href="{{ $panel->url(['act' => 'index']) }}">
@@ -25,7 +25,7 @@ return;
             @if (count($containers) > count($items))
                 @php
                     $tmp = Theme::xotModel(last($containers));
-                    $panel_tmp = Panel::get($tmp->first());
+                    $panel_tmp = Panel::make()->get($tmp->first());
                 @endphp
                 <li>
                     <a href="{{ $panel_tmp->url(['act' => 'index']) }}">

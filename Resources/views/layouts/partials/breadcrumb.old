@@ -10,7 +10,7 @@
 			@foreach(array_values($params) as $k=>$v)
         		@if(is_object($v))
         			<li>
-						<a href="{{ Panel::get($v)->url() }}">{{ ($v->title!=''?$v->title:$v->guid) }}</a>
+						<a href="{{ Panel::make()->get($v)->url() }}">{{ ($v->title!=''?$v->title:$v->guid) }}</a>
 					</li>
 				@else
 					@php
@@ -18,7 +18,7 @@
     				@endphp
     				@if(is_object($container))
     				<li>
-    					<a href="{{ Panel::get($container)->url(['act'=>'index']) }}">{{ Str::plural($v) }}</a>
+    					<a href="{{ Panel::make()->get($container)->url(['act'=>'index']) }}">{{ Str::plural($v) }}</a>
     				</li>
     				@endif
       			@endif

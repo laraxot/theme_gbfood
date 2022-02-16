@@ -5,7 +5,7 @@
 				<div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 profile-img">
 					<div class="image-wrap">
 						<figure>
-							{!! Panel::get($row)->imageHtml(['width'=>240,'height'=>140]) !!}
+							{!! Panel::make()->get($row)->imageHtml(['width'=>240,'height'=>140]) !!}
 						</figure>
 					</div>
 				</div>

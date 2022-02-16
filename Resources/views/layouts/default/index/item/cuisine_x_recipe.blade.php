@@ -1,6 +1,6 @@
 @php
 $parz = $params;
-$recipe_panel = Panel::get($row);
+$recipe_panel = Panel::make()->get($row);
 $recipe_panel->setParent($cuisine_panel);
 $route = $recipe_panel->relatedUrl('ingredient_cat', 'index');
 @endphp

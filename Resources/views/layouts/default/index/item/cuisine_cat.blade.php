@@ -9,7 +9,7 @@
 		<div class="col-sm-12 col-md-12 col-lg-8 text-xs-center text-sm-left">
 			<div class="entry-logo">
 				<a class="img-fluid" href="{{ $row->url }}">
-					{!! Panel::get($row)->imageHtml(['width'=>100,'height'=>100]) !!}
+					{!! Panel::make()->get($row)->imageHtml(['width'=>100,'height'=>100]) !!}
 				</a>
 			</div>
 			<!-- end:Logo -->

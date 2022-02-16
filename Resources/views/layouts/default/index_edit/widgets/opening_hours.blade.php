@@ -35,7 +35,7 @@
                                 {{-- $hour->destroy_url --}}
                                 @php
                                     //ddd($hour->linkable);
-                                    //ddd(Panel::get($hour)->destroyUrl());
+                                    //ddd(Panel::make()->get($hour)->destroyUrl());
                                     /*
                                     $parz=$params;
                                     $parz['container1']='opening_hour';

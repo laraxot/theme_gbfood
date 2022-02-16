@@ -1,7 +1,7 @@
 @php
 	$restaurant=collect($params)->where('post_type','restaurant')->last();
-	$restaurant_panel=Panel::get($restaurant);
-	$cuisine_panel=Panel::get($row);
+	$restaurant_panel=Panel::make()->get($restaurant);
+	$cuisine_panel=Panel::make()->get($row);
 	$cuisine_panel->setParent($restaurant_panel);
 @endphp
 <div class="menu-widget m-b-30" id="{{ $row->post_id }}">

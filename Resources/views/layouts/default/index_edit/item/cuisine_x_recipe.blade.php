@@ -1,5 +1,5 @@
 @php
-	$recipe_panel=Panel::get($row);
+	$recipe_panel=Panel::make()->get($row);
 	$recipe_panel->setParent($cuisine);
 @endphp
 

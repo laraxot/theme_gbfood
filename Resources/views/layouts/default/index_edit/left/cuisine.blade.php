@@ -4,7 +4,7 @@ $restaurant_curr = collect($params)
     ->last();
 $cuisines = $restaurant_curr->cuisines;
 
-$restaurant_panel = Panel::get($restaurant_curr);
+$restaurant_panel = Panel::make()->get($restaurant_curr);
 $edit_url = $restaurant_panel->relatedUrl('cuisine', 'index_edit');
 @endphp
 <div class="sidebar clearfix m-b-20">

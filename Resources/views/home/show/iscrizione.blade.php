@@ -17,7 +17,7 @@ $profile = Theme::xotModel('profile')->get();
                             @lang($trad.'.iscrizione.ristorante_2')</span>
                     </div>
                     <p>&nbsp;</p>
-                    <a itemprop="url" href="{{-- Panel::get($restaurant)->url(['act'=>'create']) --}}" title="registrazione ristorante" target="_self"
+                    <a itemprop="url" href="{{-- Panel::make()->get($restaurant)->url(['act'=>'create']) --}}" title="registrazione ristorante" target="_self"
                         data-hover-background-color="white" data-hover-border-color="white" data-hover-color="black"
                         class="btn btn-danger btn-round btn-lg"
                         style="color: white; border-radius: 25px 0px 25px 0px; box-shadow: 2px 2px 2px 2px #0000008a;">@lang($trad.'.iscrizione.registrati')</a>

@@ -1,6 +1,6 @@
 @php
 	//ddd(get_class($row));
-	$row_panel=Panel::get($row);
+	$row_panel=Panel::make()->get($row);
 @endphp
 <div class="bg-gray restaurant-entry">
 	<div class="row">
