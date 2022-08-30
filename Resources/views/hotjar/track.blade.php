@@ -1,5 +1,5 @@
 @if(config('app.env')=='production')
-<!-- Hotjar Tracking Code for www.foodfriendfinder.com -->
+<!-- Hotjar Tracking Code for www.test sitename.com -->
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
