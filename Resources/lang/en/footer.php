@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'order_delivery_takeout' => 'Takeaway orders',
     'follow_me' => 'Follow us on',

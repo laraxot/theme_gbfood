@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 $def = [
     'Searchfilter' => 'Agregar filtros',
     'keyword' => 'Palabra clave',

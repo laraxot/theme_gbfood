@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 $def = [
     'title' => 'Nombre del restaurante',
     'title_alert' => 'Nombre del restaurante requerido',

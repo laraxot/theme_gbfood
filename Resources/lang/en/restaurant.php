@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 $def = [
     'title' => 'Restaurant Name',
     'title_help' => 'Ex. Gino Restaurant',

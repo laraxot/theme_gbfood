@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 $def = [
     'title' => 'Register to become part of FoodTribù',
     'title_help' => 'Registration for free',

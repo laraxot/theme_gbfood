@@ -1,12 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 $def = [];
 
-$def['show']['tab']['cuisineCat'] = 'Tipo de cocina'; //italiana, messicano, brasiliano, pizzeria
+$def['show']['tab']['cuisineCat'] = 'Tipo de cocina'; // italiana, messicano, brasiliano, pizzeria
 $def['show']['tab']['restaurant'] = 'Restaurantes';
-$def['cuisineCat']['index']['tab']['cuisineCat'] = 'Tipo de cocina'; //italiana, messicano, brasiliano, pizzeria
+$def['cuisineCat']['index']['tab']['cuisineCat'] = 'Tipo de cocina'; // italiana, messicano, brasiliano, pizzeria
 $def['cuisineCat']['index']['tab']['restaurant'] = 'Restaurantes';
-$def['restaurant']['index']['tab']['cuisineCat'] = 'Tipo de cocina'; //italiana, messicano, brasiliano, pizzeria
+$def['restaurant']['index']['tab']['cuisineCat'] = 'Tipo de cocina'; // italiana, messicano, brasiliano, pizzeria
 $def['restaurant']['index']['tab']['restaurant'] = 'Restaurantes';
 
 $def['cuisineCat']['show']['tab']['restaurant'] = 'Restaurantes';

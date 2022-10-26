@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 $def = [
     'privacy' => [
         'accept_rules_title' => 'Privacy e Trattamento dei Dati',

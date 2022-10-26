@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 $def = [
     'show' => [
         'my_restaurant' => 'Mis restaurantes',

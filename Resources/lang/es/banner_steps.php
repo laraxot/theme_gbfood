@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'location' => 'Elegir la ubicación',
     'order_food' => 'Ordena lo que prefieras',

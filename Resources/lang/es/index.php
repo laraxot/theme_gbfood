@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'steps' => [
         'location' => 'Elegir la ubicación',

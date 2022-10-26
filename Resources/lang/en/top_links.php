@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'location' => 'Choose your position',
     'restaurant' => 'Choose in your restaurant',
