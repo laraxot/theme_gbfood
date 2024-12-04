@@ -82,7 +82,7 @@
     "datatables.net-bs4": "1.10.19",
     "file-loader": "^4.3.0",
     "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "jquery": "^3.4.1",
     "jquery.easing": "^1.4.1",
     "laravel-mix": "^4.1.4",
@@ -101,7 +101,7 @@
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.4.3",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.10.1",
     "xml-loader": "^1.2.1"
   },
