@@ -65,7 +65,7 @@
     "vue-cookie-law": "^1.11.0",
     "vue-functional-data-merge": "^3.1.0",
     "vue-loader": "^15.8.3",
-    "vuetify": "^2.2.6"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
