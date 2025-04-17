@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="{{ $lang }}">
+<link rel="stylesheet" href="{{ mix('css/app.css','themes/foodpicky') }}">
+<body>
+	<i class="fas fa-cookie-bite"></i>
+	<i class="fas fa-pencil-ruler"></i>
+</body>
+<script src="{{ mix('js/app.js','themes/foodpicky') }}"></script>
+</html>

@@ -1,0 +1,153 @@
+/** footer */
+.footer_logo{float:left; width:33%}
+.footer_indirizzo {float:left; width:33%}
+.footer_payment {float:left; width:33%}
+.footer_about{float:left; width:33%}
+.footer_cucine{float:left; width:33%}
+.footer_citta {float:left; width:33%}
+
+.footer_logo,.footer_indirizzo,.footer_payment,.footer_about,.footer_cucine,.footer_citta
+
+.footer_logo,.footer_indirizzo,.footer_payment,.footer_about,.footer_cucine,.footer_citta{position:relative;min-height:1px;padding-right:15px;padding-left:15px}
+
+@media (max-width:576px){.footer_logo,.footer_indirizzo,.footer_payment,.footer_about,.footer_cucine,.footer_citta{padding-right:15px;padding-left:15px, float:left;width:100%}}
+
+@media (min-width:576px){.footer_logo,.footer_indirizzo,.footer_payment,.footer_about,.footer_cucine,.footer_citta{padding-right:15px;padding-left:15px, float:left;width:100%}}
+
+@media (min-width:768px){.footer_logo,.footer_indirizzo,.footer_payment,.footer_about,.footer_cucine,.footer_citta{padding-right:15px;padding-left:15px; float:left; width: 33%}}
+
+@media (min-width:992px){.footer_logo,.footer_indirizzo,.footer_payment,.footer_about,.footer_cucine,.footer_citta{padding-right:15px;padding-left:15px; float:left; width: 33%}}
+
+@media (min-width:1200px){.footer_logo,.footer_indirizzo,.footer_payment,.footer_about,.footer_cucine,.footer_citta{padding-right:15px;padding-left:15px; float:left; width: 33%}}
+
+@media (min-width:576px){.footer_logo,.footer_indirizzo,.footer_payment,.footer_about,.footer_cucine,.footer_citta{float:left;width:100%}}
+
+@media (min-width:768px){.footer_logo,.footer_indirizzo,.footer_payment,.footer_about,.footer_cucine,.footer_citta{float:left; width: 33%}}
+
+@media (min-width:992px){.footer_logo,.footer_indirizzo,.footer_payment,.footer_about,.footer_cucine,.footer_citta{float:left; width: 33%}}
+
+@media (min-width:1200px){.footer_logo,.footer_indirizzo,.footer_payment,.footer_about,.footer_cucine,.footer_citta2{float:left; width: 33%}}
+
+/*barra laterale*/
+::-webkit-scrollbar{
+    width:0.6em;
+    height:0.6em;
+background: #222834;
+margin-right: 2px;
+}
+::-webkit-scrollbar:hover{
+    background-color:#222834 ;
+border: none;
+}
+::-webkit-resizer{
+    -webkit-border-radius:4px;
+    background-color:#eeeeee;
+border: none;
+}
+::-webkit-scrollbar-thumb{
+    min-height:0.4em;
+    min-width:0.4em;
+    -webkit-border-radius:4px;
+    background-color: #01af16;
+border: none;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #f30;
+border: none;
+}
+::-webkit-scrollbar-thumb:active{
+    background-color:#01af16;
+border: none;
+}
+
+/*menu smartphone*/
+@media (max-width:1116px){.navbar-dark .navbar-toggler {float: right; } .navbar-brand {float: left;} }
+
+/*            home             */
+
+/*     sezione restaurant   */
+
+.food-item-wrap{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.figure-wrap.bg-image:hover{
+	content: "";
+	/*background: url('../images/overlay_ristorante.png') center center !important;*/
+	z-index: 98;
+}
+
+.food-item-wrap .content {
+    margin-bottom: 8%;
+}
+
+/*     sezione how-it-works   */
+
+.how-it-works {
+    background-attachment: fixed;
+}
+
+.step .icon:hover {
+    -moz-border-radius: 50%;
+    -moz-transition: background-position 0.2s ease-in,border-color 0.2s ease-in,background-color 0.2s ease-in;
+    -o-transition: background-position 0.2s ease-in,border-color 0.2s ease-in,background-color 0.2s ease-in;
+    -webkit-transition: background-position 0.2s ease-in,border-color 0.2s ease-in,background-color 0.2s ease-in;
+    transition: background-position 0.2s ease-in,border-color 0.2s ease-in,background-color 0.2s ease-in;
+    background-color: #01af16;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.profile-desc a.btn{
+    background-color: #01af16 !important;
+}
+
+.tabella{
+    min-height: .01%;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    display: inline-table;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: #01af16 !important;
+}
+/*
+.table{border-collapse:collapse!important}
+
+.table{width:100%;max-width:100%;margin-bottom:20px}
+*/
+
+.col-sm-3.bg-ristorante {
+    background-image: url(../images/ristorante.jpg); 
+    background-position: center;
+    background-size: cover;  
+    text-align:center;
+}
+
+.col-sm-3.bg-cliente {
+    background-image: url(../images/cliente.jpg); 
+    background-position: center;
+    background-size: cover;  
+    text-align:center;
+}
+
+.col-sm-3.bg-driver {
+    background-image: url(../images/driver.jpg); 
+    background-position: center;
+    background-size: cover;  
+    text-align:center;
+}
+.col-sm-3.bg-affiliato {
+    background-image: url(../images/agent.jpg); 
+    background-position: center;
+    background-size: cover;  
+    text-align:center;
+}
+.iscrizionitxt{
+    text-align:center;
+    height: 150px;
+}
+
